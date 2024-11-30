@@ -1,6 +1,6 @@
 import React from 'react'
 
-const CourseCard = ({isLaunchSoon}) => {
+const CourseCard = ({isLaunchSoon}: any) => {
   return (
     <div className='card-container'>
       {isLaunchSoon && 

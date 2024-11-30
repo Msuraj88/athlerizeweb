@@ -1,4 +1,31 @@
+// @tailwind base;
+// @tailwind components;
+// @tailwind utilities;
+
+@import 'primereact/resources/themes/saga-blue/theme'; // Choose your theme
+@import 'primereact/resources/primereact.min';
+@import 'primeicons/primeicons';
+@import 'bootstrap/dist/css/bootstrap.min.css';
 @import './_variables';
+// :root {
+//   --background: #ffffff;
+//   --foreground: #171717;
+// }
+
+// @media (prefers-color-scheme: dark) {
+//   :root {
+//     --background: #0a0a0a;
+//     --foreground: #ededed;
+//   }
+// }
+
+// body {
+//   color: var(--foreground);
+//   background: var(--background);
+//   font-family: Arial, Helvetica, sans-serif;
+// }
+
+
 
 .app-white {
   // padding: $padding-24 $default-padding;
@@ -27,9 +54,9 @@
   .header-start {
     display: flex;
     // gap: 20px;
-    -webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.1);
-    -moz-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.1);
-    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.1);
+    // -webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.1);
+    // -moz-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.1);
+    // box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.1);
     // padding: $padding-8;
     background: $color-white2;
     border-radius: 50px;
@@ -51,6 +78,7 @@
     background: $color-white;
     color: $primary-color;
     padding: $padding-12 $padding-24;
+    border-radius: 25px;
   }  
 }
 .bg-white {
@@ -69,10 +97,10 @@
 .header-start {
   display: flex;
   // gap: 20px;
-  -webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.1);
-    -moz-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.1);
-    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.1);
-    background: $color-white;
+  // -webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.1);
+  //   -moz-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.1);
+  //   box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.1);
+    // background: $color-white;
     // padding: $padding-8;
   // padding: $padding-8;
   border-radius: 50px;
@@ -94,6 +122,7 @@
   background: $primary-color;
   color: $color-white;
   padding: $padding-12 $padding-24;
+  border-radius: 25px;
 }
 
 }
@@ -194,7 +223,7 @@
   width: 310px;
   background: 
     linear-gradient(to top, black 10%, transparent 70%),
-    url('../public/assets/images/card-img.png'); 
+    url('../../public/assets/images/card-img.png'); 
   background-size: cover; 
   background-position: center; 
   border-radius: 25px;
@@ -227,7 +256,7 @@
 .home-container  {
   // max-width: 700px;
   padding: $default-padding;
-  margin-top: 150px;
+  // margin-top: 150px;
   background: $color-white2;
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;

@@ -1,20 +1,23 @@
 import { Button } from 'primereact/button'
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
-import CourseCard from '../shared/courseCard'
 import { Col, Container, Row } from 'react-bootstrap'
-
-const Home = () => {
-  const navigate = useNavigate()
+import CourseCard from './components/courseCard'
+import Header from './components/Header'
+export default function Home() {
   const waitlistUrl = 'https://docs.google.com/forms/d/e/1FAIpQLSdDnlZ5kZe7dgk9RCzy1-csgiZ3GBIRDnBHxYx83zynjhv9Fg/viewform?embedded=true'
   return (
+    <>
+      <Header />
     <div className='main-home-container'>
       <div className='home-container'>
       <h1>
         where <span>sports</span> meets learning.
       </h1>
       <p>Learn from the best and take your next step with confidence.</p>
-      <Button label="View Courses" onClick={() => window.open(waitlistUrl, '_blank')} rounded className='joinlist-btn' />
+      <Button label="View Courses" 
+      // onClick={() => window.open(waitlistUrl, '_blank')} 
+      rounded className='joinlist-btn' />
     </div>
     <div className='message-section'>
       <div className='text-cont'>
@@ -115,7 +118,6 @@ const Home = () => {
       </div>
     </div>
     </div>
+    </>
   )
 }
-
-export default Home
