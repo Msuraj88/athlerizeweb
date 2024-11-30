@@ -1,10 +1,13 @@
+"use client"
 import { Button } from 'primereact/button'
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import { Col, Container, Row } from 'react-bootstrap'
 import CourseCard from './components/courseCard'
 import Header from './components/Header'
+import { useRouter } from 'next/navigation'
 export default function Home() {
+  const router = useRouter()
   const waitlistUrl = 'https://docs.google.com/forms/d/e/1FAIpQLSdDnlZ5kZe7dgk9RCzy1-csgiZ3GBIRDnBHxYx83zynjhv9Fg/viewform?embedded=true'
   return (
     <>
@@ -16,7 +19,7 @@ export default function Home() {
       </h1>
       <p>Learn from the best and take your next step with confidence.</p>
       <Button label="View Courses" 
-      // onClick={() => window.open(waitlistUrl, '_blank')} 
+      onClick={() => router.push('/courses')} 
       rounded className='joinlist-btn' />
     </div>
     <div className='message-section'>
@@ -38,7 +41,8 @@ export default function Home() {
           <p>Find courses that fit your passion, whether active or coming soon!</p>
         </div>
         <div>
-        <Button label="View All" severity="info" outlined rounded />
+        <Button label="View All" 
+      onClick={() => router.push('/courses')}  severity="info" outlined rounded />
         </div>
       </div>
       <div className='card-section'>
@@ -117,6 +121,34 @@ export default function Home() {
         </Row>
       </div>
     </div>
+    <div className='partners-section'>
+      <div className='header'>
+        <div>
+          <h1>Our <span>partners</span></h1>
+          <p>Find courses that fit your passion, whether active or coming soon!</p>
+        </div>
+        </div>
+        <div className='partner-imgs'>
+          <div>
+            <img src='/assets/images/oa.png' alt='' />
+          </div>
+          <div>
+            <img src='/assets/images/hh.png' alt='' />
+          </div>
+          <div>
+            <img src='/assets/images/hbh.png' alt='' />
+          </div>
+          <div>
+            <img src='/assets/images/blitz.png' alt='' />
+          </div>
+          <div>
+            <img src='/assets/images/bf.png' alt='' />
+          </div>
+          <div>
+            <img src='/assets/images/inde.png' alt='' />
+          </div>
+        </div>
+        </div>
     </div>
     </>
   )

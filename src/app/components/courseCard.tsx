@@ -1,8 +1,10 @@
+import { useRouter } from 'next/navigation'
 import React from 'react'
 
 const CourseCard = ({isLaunchSoon}: any) => {
+  const router = useRouter()
   return (
-    <div className='card-container'>
+    <div className='card-container cursor-pointer' onClick={() => router.push('/course-details')}>
       {isLaunchSoon && 
         <span className='launch-text'>Launching Soon</span>
       }

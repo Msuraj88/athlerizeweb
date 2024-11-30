@@ -184,6 +184,7 @@
     }
     .career-section {
       margin: $default-padding;
+      margin-bottom: 0;
       background: $bg-blue;
       border-radius: 25px;
       padding: $default-padding;
@@ -221,6 +222,7 @@
   text-align: center;
   height: 446px; 
   width: 310px;
+  margin: $margin-20 0;
   background: 
     linear-gradient(to top, black 10%, transparent 70%),
     url('../../public/assets/images/card-img.png'); 
@@ -554,5 +556,89 @@
   }
   .footer-container {
     flex-direction: column;
+  }
+}
+
+
+.partners-section {
+  background: $color-white2;
+  padding: $default-padding;
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: $default-padding;
+    h1 {
+      span {
+        color: $bg-blue;
+      }
+    }
+  }
+  .partner-imgs {
+    display: flex;
+    gap: 30px;
+    // white-space: nowrap;
+    // overflow: hidden;
+    justify-content: end;
+    animation: scroll-left 35s linear infinite;
+    div {
+      width: 198px;
+      background: $color-white;
+      border-radius: 15px;
+      align-content: center;
+      text-align: center;
+    }
+  }
+}
+.header-main {
+  background: $bg-blue;
+  color: $color-white;
+  text-align: center;
+  padding: $default-padding 0;
+  padding-top: 80px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  h1 {
+    font-size: 80px;
+    max-width: 720px;
+    margin: auto;
+  }
+  p {
+    font-size: 16px;
+  }
+}
+.courses-page {
+  .header-section {
+    margin: $default-padding;
+    text-align: center;
+    h1 {
+      span {
+        color: $bg-blue;
+      }
+    }
+  }
+}
+
+.partners-section {
+  .partners-card {
+    display: flex;
+    gap: 40px;
+    div {
+      background: $color-white;
+      border-radius: 15px;
+      padding: $padding-20;
+      max-width: 302px;
+    }
+  }
+}
+
+
+// keyframs to scroll left
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
   }
 }
