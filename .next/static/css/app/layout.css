@@ -28855,12 +28855,6 @@ textarea.form-control-lg {
   background-color: #fff;
   border-radius: 50px;
 }
-.bg-default .joinlist-btn {
-  background: #fff;
-  color: #0289D1;
-  padding: 12px 24px;
-  border-radius: 25px;
-}
 
 .bg-white {
   background: #f3f3f3 !important;
@@ -28901,39 +28895,40 @@ textarea.form-control-lg {
   cursor: pointer;
 }
 
-.main-home-container {
-  background: #0089D1;
-}
-.main-home-container .message-section {
+.message-section {
   display: flex;
   height: 650px;
   padding: 35px;
   padding-bottom: 0;
   align-items: end;
 }
-.main-home-container .message-section .text-cont {
+.message-section .text-cont {
   padding: 20px;
   color: #fff;
 }
-.main-home-container .message-section .text-cont h3 {
+.message-section .text-cont h3 {
   color: #fff;
   font-size: 40px;
 }
-.main-home-container .message-section .text-cont p {
+.message-section .text-cont p {
   color: #fff;
   font-size: 18px;
   line-height: 25px;
 }
-.main-home-container .message-section .text-cont p.small {
+.message-section .text-cont p.small {
   font-size: 14px;
   line-height: 0;
 }
-.main-home-container .message-section .text-cont h5 {
+.message-section .text-cont h5 {
   font-size: 20px;
   margin: 12px 0;
 }
-.main-home-container .message-section .img-cont img {
+.message-section .img-cont img {
   margin-bottom: -3px;
+}
+
+.main-home-container {
+  background: #0089D1;
 }
 .main-home-container .courses-section {
   background: #f3f3f3;
@@ -29361,6 +29356,31 @@ textarea.form-control-lg {
   font-size: 16px;
 }
 
+.abt-section {
+  max-width: 1156px;
+}
+
+.aboutus-container {
+  background: #f3f3f3;
+}
+
+.header-main-white {
+  background: #f3f3f3;
+  text-align: center;
+  padding: 55px 0;
+  padding-top: 80px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+.header-main-white h1 {
+  font-size: 80px;
+  margin: auto;
+}
+.header-main-white p {
+  font-size: 20px;
+  margin: 16px;
+}
+
 .courses-page .header-section {
   margin: 55px;
   text-align: center;
@@ -29378,6 +29398,93 @@ textarea.form-control-lg {
   border-radius: 15px;
   padding: 20px;
   max-width: 302px;
+}
+
+.abt-cards .card {
+  border: none;
+  border-radius: 15px;
+}
+.abt-cards .card .title {
+  font-size: 16px;
+  border-left: 3px solid #0089D1;
+  padding-left: 12px;
+}
+.abt-cards .card .desc {
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 20px;
+}
+.abt-cards .card .link {
+  display: inline-block;
+  margin-top: 24px;
+  color: #000;
+  text-decoration: none;
+}
+
+.joinlist-btn {
+  background: #fff;
+  color: #0289D1;
+  padding: 12px 24px;
+  border-radius: 25px;
+}
+
+.joinlist-btn-blue {
+  background: #0089D1;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 25px;
+}
+
+.abt-card-container {
+  width: 270px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 15px;
+}
+.abt-card-container img {
+  width: 100%;
+  border-radius: 15px;
+}
+.abt-card-container h2 {
+  font-size: 16px;
+  margin: 10px 0;
+}
+.abt-card-container h5 {
+  color: #0089D1;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 5px 0;
+}
+.abt-card-container p {
+  font-size: 12px;
+}
+
+.main-footer-container {
+  background: #1F1F1F;
+}
+.main-footer-container .first-section {
+  padding: 55px;
+}
+.main-footer-container ul {
+  list-style: none;
+  float: right;
+  border-right: 1px solid #fff;
+  padding-right: 24px;
+}
+.main-footer-container ul li {
+  color: #fff;
+  cursor: pointer;
+  line-height: 30px;
+  font-weight: 300;
+}
+.main-footer-container .payments-section {
+  background: #171717;
+}
+.main-footer-container .footer-section p {
+  font-size: 14px;
+}
+.main-footer-container .footer-section span {
+  font-size: 10px;
 }
 
 @keyframes scroll-left {

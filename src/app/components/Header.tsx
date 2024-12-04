@@ -35,7 +35,7 @@ const Header = () => {
     ];
     
     const startContent = (
-        <div className='header-start' style={{background: pathname === '/' ? '#fff' : '#0f8fd3'}}>
+        <div className='header-start' style={{background: pathname === '/' || pathname === '/aboutus' ? '#fff' : '#0f8fd3'}}>
             <p 
             className={pathname === '/partners' ? 'active' : ''} 
             onClick={() => router.push('/partners')}
@@ -55,7 +55,7 @@ const Header = () => {
         <div className="cursor-pointer" 
         onClick={() => router.push('/')}
         >
-            <img src={`/assets/images/logo-${pathname === '/' || pathname === '/waitlist' ? 'blue' : 'white'}.svg`} width={'140px'} />
+            <img src={`/assets/images/logo-${pathname === '/' || pathname === '/waitlist' || pathname === '/aboutus'  ? 'blue' : 'white'}.svg`} width={'140px'} />
         </div>
     );
 
@@ -91,7 +91,7 @@ const Header = () => {
         <div className="">
             <img src='/assets/images/adv.png' />
             <Toolbar start={centerContent} center={startContent} end={endContent} className={`topbar-container 
-                  ${pathname === '/' || pathname === '/waitlist' ? 'bg-white' : 'bg-default'}
+                  ${pathname === '/' || pathname === '/waitlist'|| pathname === '/aboutus'  ? 'bg-white' : 'bg-default'}
                  `} 
                 />
             {/* <Toolbar start={width < 601 ?  '' : centerContent} center={width < 601 ? centerContent : startContent} end={width < 601 ? endContent2 : endContent} className={`topbar-container 

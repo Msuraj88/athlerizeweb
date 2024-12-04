@@ -22,15 +22,10 @@ self.__BUILD_MANIFEST = {
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/course-details": [
+    "/aboutus": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/course-details.js"
-    ],
-    "/courses": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/courses.js"
+      "static/chunks/pages/aboutus.js"
     ],
     "/partners": [
       "static/chunks/webpack.js",
