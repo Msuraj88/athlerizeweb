@@ -58,6 +58,7 @@
     background: $primary-color;
     border: none;
   }
+}
 
   .header-start {
     display: flex;
@@ -89,6 +90,42 @@
     color: $primary-color;
     padding: $padding-12 $padding-24;
     border-radius: 25px;
+  
+}
+.bg-white {
+
+  background: $color-white2 !important;
+.App {
+  padding: $padding-24 $default-padding;
+  background: $color-white;
+}
+&.topbar-container {
+  background: $color-white;
+  border: none;
+  padding: $padding-16 $default-padding;
+}
+}
+.header-start {
+  display: flex;
+  // gap: 20px;
+  // -webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.1);
+  //   -moz-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.1);
+  //   box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.1);
+    // background: $color-white;
+    // padding: $padding-8;
+  // padding: $padding-8;
+  border-radius: 50px;
+  p {
+    color: $color-black;
+    font-size: 16px;
+    padding: $padding-12 $padding-24;
+    cursor: pointer;
+    margin: 0;
+    &.active {
+      color: $color-white;
+      background-color: $primary-color;
+      border-radius: 50px;
+    }
   }
 }
 
@@ -188,6 +225,42 @@
       }
     }
   }
+}
+.message-section {
+  display: flex;
+  height: 650px;
+  padding: 35px;
+  padding-bottom: 0;
+  align-items: end;
+  .text-cont {
+    padding: $padding-20;
+    color: $color-white;
+    h3 {
+      color: $color-white;
+      font-size: 40px;
+    }
+    p {
+      color: $color-white;
+      font-size: 18px;
+      line-height: 25px;
+      &.small {
+        font-size: 14px;
+        line-height: 0;
+      }
+    }
+    h5 {
+      font-size: 20px;
+      margin: $margin-12 0;
+    }
+  }
+  .img-cont {
+    img {
+      margin-bottom: -3px;
+    }
+  }
+}
+.main-home-container {
+  background: $bg-blue;
 
   .courses-section {
     background: $color-white2;
@@ -707,6 +780,30 @@
   }
 }
 
+.abt-section {
+  max-width: 1156px;
+}
+.aboutus-container {
+  background: $color-white2;
+}
+.header-main-white {
+  background: $color-white2;
+  // color: $color-black;
+  text-align: center;
+  padding: $default-padding 0;
+  padding-top: 80px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  h1 {
+    font-size: 80px;
+    // max-width: 720px;
+    margin: auto;
+  }
+  p {
+    font-size: 20px;
+    margin: $padding-16;
+  }
+}
 .courses-page {
   .header-section {
     margin: $default-padding;
@@ -793,7 +890,7 @@
       }
     }
   }
-
+}
   .Course-info-sec {
     background-color: #F3F3F3;
 
@@ -880,8 +977,96 @@
       }
     }
   }
+.abt-cards {
+  .card {
+    border: none;
+    border-radius: 15px;
+    .title {
+      font-size: 16px;
+      border-left: 3px solid #0089D1;
+      padding-left: $padding-12;
+    }
+    .desc {
+      font-size: 12px;
+      font-weight: 300;
+      line-height: 20px;
+    }
+    .link {
+      display: inline-block;
+      margin-top: $padding-24;
+      color: $color-black;
+      text-decoration: none;
+    }
+  }
 }
 
+.joinlist-btn {
+  background: $color-white;
+  color: $primary-color;
+  padding: $padding-12 $padding-24;
+  border-radius: 25px;
+}
+
+.joinlist-btn-blue {
+  background: $bg-blue;
+  color: $color-white;
+  padding: $padding-12 $padding-24;
+  border-radius: 25px;
+}
+
+.abt-card-container {
+  width: 270px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 15px;
+    img {
+      width: 100%;
+      border-radius: 15px;
+    }
+    h2 {
+      font-size: 16px;
+      margin: 10px 0;
+    }
+    h5 {
+      color: #0089D1;
+      font-size: 14px;
+      font-weight: 400;
+      margin: 5px 0;
+    }
+    p {
+      font-size: 12px;
+    }
+}
+
+.main-footer-container {
+  background: #1F1F1F;
+  .first-section {
+    padding: $default-padding;
+  }
+  ul {
+    list-style: none;
+    float: right;
+    border-right: 1px solid $color-white;
+    padding-right: $padding-24;
+    li {
+      color: $color-white;
+      cursor: pointer;
+      line-height: 30px;
+      font-weight: 300;
+    }
+  }
+  .payments-section {
+    background: #171717;
+  }
+  .footer-section {
+    p {
+      font-size: 14px;
+    }
+    span {
+      font-size: 10px;
+    }
+  }
+}
 
 // keyframs to scroll left
 @keyframes scroll-left {
