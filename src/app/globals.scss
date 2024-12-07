@@ -654,9 +654,87 @@
   }
 }
 
+.abt-us-margin {
+  margin: 55px 110px;
+}
+
 @media screen and (max-width: 600px) {
   .team-container .team-block .profiles {
     flex-direction: column;
+  }
+  .main-home-container .message-section {
+    flex-direction: column;
+    height: auto;
+  }
+  .page-cards {
+    gap: 20px
+  }
+  .abt-us-margin {
+    margin: 0;
+  }
+  .contact-container .cards-section {
+    width: 90% !important;
+    .card {
+      width: 100% !important;
+    }
+  }
+  .p-menu-list {
+    padding: 0;
+    li {
+      text-align: center;
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+  .bg-white.topbar-container {
+    padding: $padding-16 !important;
+  }
+  .pp-page {
+    padding: $padding-16 !important;
+    .inside-section {
+      margin: $margin-12 !important;
+      width: 95% !important;
+    }
+  }
+  .contact-container {
+    .vr-line {
+      height: 1px !important;
+      width: 80% !important;
+      margin: $margin-12 0;
+    }
+  }
+  .courses-page .header-section {
+    margin: $margin-12 !important;
+  }
+  .partners-section .partners-card {
+    flex-direction: column;
+  }
+  .img-cont {
+    display: none;
+  } 
+  .footer-imgs {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .main-home-container .courses-section .career-section {
+    .col {
+      p {
+        padding: $padding-12;
+      }
+      h1 {
+        padding: $padding-12;
+      }
+    }
+    height: auto;
+    padding: 0 !important;
+    .career-img {
+      position: static;
+      width: 100%;
+    }
+    .align-content-end {
+      align-content: start !important;
+    }
   }
 
   .waitlist {
@@ -821,6 +899,7 @@
   .partners-card {
     display: flex;
     gap: 40px;
+    flex-wrap: wrap;
 
     div {
       background: $color-white;
@@ -1068,6 +1147,94 @@
   }
 }
 
+.contact-container {
+  background-color: $color-white2;
+  padding: $margin-20;
+  .cards-section {
+    width: 70%;
+    margin: auto;
+    .card {
+      border: none;
+      border-radius: 15px;
+      -webkit-box-shadow: 3px 10px 15px 0px rgba(201,201,201,1);
+      -moz-box-shadow: 3px 10px 15px 0px rgba(201,201,201,1);
+      box-shadow: 3px 10px 15px 0px rgba(201,201,201,1);
+      p {
+        font-weight: 300;
+        font-size: 14px;
+      }
+    }
+  }
+  .vr-line {
+    border: 1px solid #0089D1;
+    display: inline-block;
+    height: 144px;
+  }
+}
+
+.faq-page {
+  .accordion-item {
+    border: none;
+  }
+  .accordion-button {
+    background: transparent;
+    &:focus {
+      box-shadow: none;
+    }
+  }
+}
+
+.pp-page {
+  background: $color-white2;
+  padding: $default-padding;
+  .inside-section {
+    width: 70%;
+    margin: auto;
+    h5 {
+      font-weight: 300;
+    }
+    h1 {
+      font-size: 60px;
+      span {
+        color: $bg-blue;
+      }
+    }
+    p {
+      font-size: 14px;
+    line-height: 26px;
+    font-weight: 300;
+    }
+  }
+}
+
+.form-details {
+  border: 1px solid #D9D9D9;
+  padding: $padding-12;
+  border-radius: 20px;
+  input {
+    width: 100%;
+    border: none;
+    padding: $padding-16;
+    border-bottom: 1px solid #D9D9D9;
+  }
+  .p-inputgroup-addon {
+    background: #fff;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #D9D9D9;
+  }
+  button {
+    width: 100%;
+    margin: $margin-20 0;
+    padding: $padding-16;
+    border-radius: 12px;
+  }
+}
+
+.refund-container {
+  background: $color-white2;
+  padding: $default-padding;
+}
 // keyframs to scroll left
 @keyframes scroll-left {
   0% {

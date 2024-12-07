@@ -9,33 +9,30 @@ import '../globals.scss'
 
 const Header = () => {
     // const navigate = useNavigate()
+    // let wwidth = window?.innerWidth
+    // if(type)
     const router = useRouter()
     const pathname = usePathname();
-    console.log('cascascas', pathname)
     const menuRight: any = useRef(null);
-    const [width, setWidth] = useState(null);
+    const [width, setWidth] = useState<any>(window?.innerWidth);
   const waitlistUrl = 'https://docs.google.com/forms/d/e/1FAIpQLSdDnlZ5kZe7dgk9RCzy1-csgiZ3GBIRDnBHxYx83zynjhv9Fg/viewform?embedded=true'
     const items = [
-        {
-            items: [
                 {
-                    label: 'Team',
-                    command: () => router.push('/team')
+                    label: 'Partners',
+                    command: () => router.push('/partners')
                 },
                 {
-                    label: 'Company',
-                    command: () => router.push('/company')
+                    label: 'About Us',
+                    command: () => router.push('/aboutus')
                 },
                 {
-                    label: 'Join Waitlist',
-                    // command: () => window.open(waitlistUrl, '_blank')
+                    label: 'Contact',
+                    command: () => router.push('/contact')
                 }
-            ]
-        }
     ];
     
     const startContent = (
-        <div className='header-start' style={{background: pathname === '/' || pathname === '/aboutus' ? '#fff' : '#0f8fd3'}}>
+        <div className='header-start' style={{background: pathname === '/' || pathname === '/aboutus' || pathname === '/contact' || pathname === '/privacy-policy' || pathname === '/terms' || pathname === '/refund' || pathname === '/checkout' ? '#fff' : '#0f8fd3'}}>
             <p 
             className={pathname === '/partners' ? 'active' : ''} 
             onClick={() => router.push('/partners')}
@@ -55,20 +52,20 @@ const Header = () => {
         <div className="cursor-pointer" 
         onClick={() => router.push('/')}
         >
-            <img src={`/assets/images/logo-${pathname === '/' || pathname === '/waitlist' || pathname === '/aboutus'  ? 'blue' : 'white'}.svg`} width={'140px'} />
+            <img src={`/assets/images/logo-${pathname === '/' || pathname === '/waitlist' || pathname === '/aboutus' || pathname === '/contact' || pathname === '/privacy-policy' || pathname === '/terms' || pathname === '/refund' || pathname === '/checkout' ? 'blue' : 'white'}.svg`} width={'140px'} />
         </div>
     );
 
-    // useEffect(() => {
-    //     const handleResize = () => {
-    //     setWidth(window?.innerWidth);
-    //     };
-    //     window.addEventListener('resize', handleResize);
+    useEffect(() => {
+        const handleResize = () => {
+        setWidth(window?.innerWidth);
+        };
+        window.addEventListener('resize', handleResize);
 
-    //     return () => {
-    //     window.removeEventListener('resize', handleResize);
-    //     };
-    // }, []); 
+        return () => {
+        window.removeEventListener('resize', handleResize);
+        };
+    }, []); 
 
     const endContent = (
         <React.Fragment>
@@ -82,22 +79,22 @@ const Header = () => {
         <React.Fragment>
             <Menu model={items} popup ref={menuRight} id="popup_menu_right" popupAlignment="right" />
             <Button icon="pi pi-bars" className="mr-2" 
-            // onClick={(event) => menuRight?.current.toggle(event)}
+            onClick={(event) => menuRight?.current.toggle(event)}
              aria-controls="popup_menu_right" aria-haspopup />
         </React.Fragment>
     )
-
+    console.log('ascasca', width)
     return (
         <div className="">
-            <img src='/assets/images/adv.png' />
-            <Toolbar start={centerContent} center={startContent} end={endContent} className={`topbar-container 
-                  ${pathname === '/' || pathname === '/waitlist'|| pathname === '/aboutus'  ? 'bg-white' : 'bg-default'}
-                 `} 
-                />
-            {/* <Toolbar start={width < 601 ?  '' : centerContent} center={width < 601 ? centerContent : startContent} end={width < 601 ? endContent2 : endContent} className={`topbar-container 
-                  ${pathname === '/' || pathname === '/waitlist' ? 'bg-white' : 'bg-default'}
+            <img src='/assets/images/adv.png' width={'100%'} />
+            {/* <Toolbar start={centerContent} center={startContent} end={endContent} className={`topbar-container 
+                  ${pathname === '/' || pathname === '/waitlist'|| pathname === '/aboutus' || pathname === '/contact' || pathname === '/privacy-policy' || pathname === '/terms' || pathname === '/refund' || pathname === '/checkout'  ? 'bg-white' : 'bg-default'}
                  `} 
                 /> */}
+            <Toolbar start={width < 601 ?  '' : centerContent} center={width < 601 ? centerContent : startContent} end={width < 601 ? endContent2 : endContent} className={`topbar-container 
+                  ${pathname === '/' || pathname === '/waitlist'|| pathname === '/aboutus' || pathname === '/contact' || pathname === '/privacy-policy' || pathname === '/terms' || pathname === '/refund' || pathname === '/checkout'  ? 'bg-white' : 'bg-default'}
+                 `}
+                />
         </div>
     );
 }

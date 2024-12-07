@@ -23,7 +23,7 @@ const Aboutus = () => {
           </p>
         </div>
         <div className="text-center m-5">
-          <img src="/assets/images/abt-img.png" alt="" />
+          <img src="/assets/images/abt-img.png" alt="" width={'100%'} />
         </div>
         <Container className="abt-section p-5">
           <Row>
@@ -107,8 +107,8 @@ const Aboutus = () => {
           </div>
         </div>
         <Container className="py-5">
-          <Row>
-            <Col xs={3} md={3} lg={3}>
+          <Row className='page-cards'>
+            <Col xs={12} md={5} lg={3}>
               <div>
                 <h1>who can <span style={{ color: "#0089D1" }}>use?</span></h1>
                 <p>Find courses that fit your passion, whether active or coming soon! Find courses that fit your passion.</p>
@@ -116,9 +116,9 @@ const Aboutus = () => {
                   onClick={() => router.push('/courses')} 
                   rounded className='joinlist-btn-blue' />
               </div>
-            <Col xs={1} md={1} lg={1}></Col>
             </Col>
-            <Col xs={2} md={2} lg={2} className="abt-cards">
+            <Col xs={12} md={5} lg={1}></Col>
+            <Col xs={12} md={5} lg={2} className="abt-cards">
             <Card>
               <Card.Body>
                 <Card.Title className="title">
@@ -148,7 +148,7 @@ const Aboutus = () => {
               </Card.Body>
             </Card>
             </Col>
-            <Col xs={2} md={2} lg={2} className="abt-cards">
+            <Col xs={12} md={5} lg={2} className="abt-cards">
             <Card>
               <Card.Body>
                 <Card.Title className="title">
@@ -178,7 +178,7 @@ const Aboutus = () => {
               </Card.Body>
             </Card>
             </Col>
-            <Col xs={2} md={2} lg={2} className="abt-cards">
+            <Col xs={12} md={5} lg={2} className="abt-cards">
             <Card>
               <Card.Body>
                 <Card.Title className="title">
@@ -208,7 +208,7 @@ const Aboutus = () => {
               </Card.Body>
             </Card>
             </Col>
-            <Col xs={2} md={2} lg={2} className="abt-cards">
+            <Col xs={12} md={5} lg={2} className="abt-cards">
             <Card>
               <Card.Body>
                 <Card.Title className="title">
@@ -245,14 +245,14 @@ const Aboutus = () => {
             <h2>our all-star <span style={{ color: "#0089D1" }}>squad</span></h2>
             <p>Meet the team that makes athleriZe happen</p>
           </div>
-          <div style={{margin: '55px 110px'}}>
+          <div className="abt-us-margin">
             <h2 className="m-4">our <span style={{ color: "#0089D1" }}>founding team</span></h2>
             <Container>
               <Row>
-                <Col>
+                <Col xs={12} md={6} lg={3}>
                   <AbtCards name={'Anil Kumar M'} desc={'Founder, Captain'} email={'anil@athlerize.com'} />
                 </Col>
-                <Col>
+                <Col xs={12} md={6} lg={3}>
                   <AbtCards name={'Sai Praneeth B'} desc={'Founding Partner, Vice Captain'} email={''} />
                 </Col>
                 <Col></Col>
@@ -260,41 +260,41 @@ const Aboutus = () => {
               </Row>
             </Container>
           </div>
-          <div style={{margin: '55px 110px'}}>
+          <div className="abt-us-margin">
             <h2 className="m-4">our <span style={{ color: "#0089D1" }}>star squad</span></h2>
             <Container>
               <Row>
-                <Col>
+                <Col xs={12} md={6} lg={3}>
                   <AbtCards name={'Kamala Grace'} desc={'All Rounder'} email={''} />
                 </Col>
-                <Col>
+                <Col xs={12} md={6} lg={3}>
                   <AbtCards name={'Ritika'} desc={'All Rounder'} email={''} />
                 </Col>
-                <Col>
+                <Col xs={12} md={6} lg={3}>
                   <AbtCards name={'Sreevatsa C'} desc={'All Rounder'} email={''} />
                 </Col>
                 <Col>
                   <AbtCards name={'Tarun Raidu'} desc={'All Rounder'} email={''} />
                 </Col>
-                <Col>
+                <Col xs={12} md={6} lg={3}>
                   <AbtCards name={'Sharanya'} desc={'All Rounder'} email={''} />
                 </Col>
               </Row>
             </Container>
           </div>
-          <div style={{margin: '55px 110px'}}>
+          <div className="abt-us-margin">
             <h2 className="m-4">our <span style={{ color: "#0089D1" }}>coaches (advisors)</span></h2>
             <Container>
               <Row noGutters>
-                <Col xs={3}>
-                <div className='abt-card-container text-center my-3'>
+                <Col  xs={12} md={6} lg={3}>
+                <div className='abt-card-container m-auto text-center my-3'>
                   <img src='/assets/images/nandiraju.png' />
                   <h2>Srikanth N</h2>
                   <h5>Technology</h5>
               </div>
                 </Col>
-                <Col xs={3}>
-                <div className='abt-card-container text-center my-3'>
+                <Col  xs={12} md={6} lg={3}>
+                <div className='abt-card-container m-auto text-center my-3'>
                   <img src='/assets/images/namrata.png' />
                   <h2>Namrata Nair</h2>
                   <h5>Legal</h5>
@@ -305,7 +305,7 @@ const Aboutus = () => {
           </div>
         </div>
         <div className="text-center">
-          <img src="/assets/images/joinsqd.png" alt="" />
+          <img src="/assets/images/joinsqd.png" alt="" width={'100%'} />
         </div>
         <div className='partners-section'>
       <div className='header'>

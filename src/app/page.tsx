@@ -57,8 +57,8 @@ export default function Home() {
       </div>
 
       <Container className="py-5">
-          <Row>
-            <Col xs={3} md={3} lg={3}>
+          <Row className='page-cards'>
+            <Col xs={12} md={5} lg={3}>
               <div>
                 <h1>who can <span style={{ color: "#0089D1" }}>use?</span></h1>
                 <p>Find courses that fit your passion, whether active or coming soon! Find courses that fit your passion.</p>
@@ -67,8 +67,8 @@ export default function Home() {
                   rounded className='joinlist-btn-blue' />
               </div>
             </Col>
-            <Col xs={1} md={1} lg={1}></Col>
-            <Col xs={2} md={2} lg={2} className="abt-cards">
+            <Col xs={12} md={5} lg={1}></Col>
+            <Col xs={12} md={5} lg={2} className="abt-cards">
             <Card>
               <Card.Body>
                 <Card.Title className="title">
@@ -98,7 +98,7 @@ export default function Home() {
               </Card.Body>
             </Card>
             </Col>
-            <Col xs={2} md={2} lg={2} className="abt-cards">
+            <Col xs={12} md={5} lg={2} className="abt-cards">
             <Card>
               <Card.Body>
                 <Card.Title className="title">
@@ -128,7 +128,7 @@ export default function Home() {
               </Card.Body>
             </Card>
             </Col>
-            <Col xs={2} md={2} lg={2} className="abt-cards">
+            <Col xs={12} md={5} lg={2} className="abt-cards">
             <Card>
               <Card.Body>
                 <Card.Title className="title">
@@ -158,7 +158,7 @@ export default function Home() {
               </Card.Body>
             </Card>
             </Col>
-            <Col xs={2} md={2} lg={2} className="abt-cards">
+            <Col xs={12} md={5} lg={2} className="abt-cards">
             <Card>
               <Card.Body>
                 <Card.Title className="title">

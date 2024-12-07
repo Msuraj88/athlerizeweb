@@ -30,7 +30,7 @@ const Footer = () => {
                 <Col>
                     <div className='px-5'>
                         <p style={{color:'#fff'}}><span style={{ color: "#0089D1" }}>recognized</span> by</p>
-                        <div className='d-flex'>
+                        <div className='d-flex footer-imgs'>
                         <img src='/assets/images/dpiit.png' alt='' />
                         <img src='/assets/images/startup.png' alt='' />
                         </div>
@@ -44,14 +44,14 @@ const Footer = () => {
                 <Col className='footer-section'>
                     <p>2024 WhatsInTheGame Sports & Media Pvt. Ltd.</p>
                     <div className='d-flex gap-2 cursor-pointer'>
-                        <span>Privacy Policy </span> <span>|</span>
-                        <span>  Terms & Conditions </span> <span>|</span>
-                        <span>Cancellation and Refund Policy</span>
+                        <span onClick={() => router.push('/privacy-policy')}>Privacy Policy </span> <span>|</span>
+                        <span onClick={() => router.push('/terms')}>  Terms & Conditions </span> <span>|</span>
+                        <span onClick={() => router.push('/refund')}>Cancellation and Refund Policy</span>
                     </div>
                 </Col>
                 <Col className='text-end'>
                     <span style={{fontSize: '10px'}}>Payments secured by:</span>
-                    <img src='/assets/images/payments.svg' alt='' />
+                    <img src='/assets/images/payments.svg' alt='' width={'100%'} />
                 </Col>
             </Row>
         </Container>
