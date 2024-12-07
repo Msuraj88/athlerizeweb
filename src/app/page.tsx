@@ -90,7 +90,7 @@ export default function Home() {
                     d="M1.24902 10.4988L6.08197 5.66589L1.24902 0.832947"
                     stroke="#000"
                     strokeLinecap="round"
-                    stroke-linejoin="round"
+                    strokeLinejoin="round"
                   />
                 </svg>
               </span>
@@ -120,7 +120,7 @@ export default function Home() {
                     d="M1.24902 10.4988L6.08197 5.66589L1.24902 0.832947"
                     stroke="#000"
                     strokeLinecap="round"
-                    stroke-linejoin="round"
+                    strokeLinejoin="round"
                   />
                 </svg>
               </span>
@@ -150,7 +150,7 @@ export default function Home() {
                     d="M1.24902 10.4988L6.08197 5.66589L1.24902 0.832947"
                     stroke="#000"
                     strokeLinecap="round"
-                    stroke-linejoin="round"
+                    strokeLinejoin="round"
                   />
                 </svg>
               </span>
@@ -180,7 +180,7 @@ export default function Home() {
                     d="M1.24902 10.4988L6.08197 5.66589L1.24902 0.832947"
                     stroke="#000"
                     strokeLinecap="round"
-                    stroke-linejoin="round"
+                    strokeLinejoin="round"
                   />
                 </svg>
               </span>

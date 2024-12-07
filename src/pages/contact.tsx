@@ -33,7 +33,7 @@ const Contact = () => {
                     d="M1.24902 10.4988L6.08197 5.66589L1.24902 0.832947"
                     stroke="#000"
                     strokeLinecap="round"
-                    stroke-linejoin="round"
+                    strokeLinejoin="round"
                   />
                 </svg>
               </span>
@@ -59,7 +59,7 @@ const Contact = () => {
                     d="M1.24902 10.4988L6.08197 5.66589L1.24902 0.832947"
                     stroke="#000"
                     strokeLinecap="round"
-                    stroke-linejoin="round"
+                    strokeLinejoin="round"
                   />
                 </svg>
               </span>
@@ -85,7 +85,7 @@ const Contact = () => {
                     d="M1.24902 10.4988L6.08197 5.66589L1.24902 0.832947"
                     stroke="#000"
                     strokeLinecap="round"
-                    stroke-linejoin="round"
+                    strokeLinejoin="round"
                   />
                 </svg>
               </span>

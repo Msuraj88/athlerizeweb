@@ -35,7 +35,7 @@ export default function Partners() {
                     d="M1.24902 10.4988L6.08197 5.66589L1.24902 0.832947"
                     stroke="#80C4E8"
                     strokeLinecap="round"
-                    stroke-linejoin="round"
+                    strokeLinejoin="round"
                   />
                 </svg>
               </span>
@@ -61,7 +61,7 @@ export default function Partners() {
                     d="M1.24902 10.4988L6.08197 5.66589L1.24902 0.832947"
                     stroke="#80C4E8"
                     strokeLinecap="round"
-                    stroke-linejoin="round"
+                    strokeLinejoin="round"
                   />
                 </svg>
               </span>
@@ -87,7 +87,7 @@ export default function Partners() {
                     d="M1.24902 10.4988L6.08197 5.66589L1.24902 0.832947"
                     stroke="#80C4E8"
                     strokeLinecap="round"
-                    stroke-linejoin="round"
+                    strokeLinejoin="round"
                   />
                 </svg>
               </span>
@@ -113,7 +113,7 @@ export default function Partners() {
                     d="M1.24902 10.4988L6.08197 5.66589L1.24902 0.832947"
                     stroke="#80C4E8"
                     strokeLinecap="round"
-                    stroke-linejoin="round"
+                    strokeLinejoin="round"
                   />
                 </svg>
               </span>
@@ -146,7 +146,7 @@ export default function Partners() {
                     d="M1.24902 10.4988L6.08197 5.66589L1.24902 0.832947"
                     stroke="#80C4E8"
                     strokeLinecap="round"
-                    stroke-linejoin="round"
+                    strokeLinejoin="round"
                   />
                 </svg>
               </span>
@@ -171,7 +171,7 @@ export default function Partners() {
                     d="M1.24902 10.4988L6.08197 5.66589L1.24902 0.832947"
                     stroke="#80C4E8"
                     strokeLinecap="round"
-                    stroke-linejoin="round"
+                    strokeLinejoin="round"
                   />
                 </svg>
               </span>
@@ -204,7 +204,7 @@ export default function Partners() {
                     d="M1.24902 10.4988L6.08197 5.66589L1.24902 0.832947"
                     stroke="#80C4E8"
                     strokeLinecap="round"
-                    stroke-linejoin="round"
+                    strokeLinejoin="round"
                   />
                 </svg>
               </span>

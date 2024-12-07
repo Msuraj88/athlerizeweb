@@ -14,7 +14,7 @@ const Header = () => {
     const router = useRouter()
     const pathname = usePathname();
     const menuRight: any = useRef(null);
-    const [width, setWidth] = useState<any>(window?.innerWidth);
+    const [width, setWidth] = useState<any>(601);
   const waitlistUrl = 'https://docs.google.com/forms/d/e/1FAIpQLSdDnlZ5kZe7dgk9RCzy1-csgiZ3GBIRDnBHxYx83zynjhv9Fg/viewform?embedded=true'
     const items = [
                 {
@@ -55,6 +55,13 @@ const Header = () => {
             <img src={`/assets/images/logo-${pathname === '/' || pathname === '/waitlist' || pathname === '/aboutus' || pathname === '/contact' || pathname === '/privacy-policy' || pathname === '/terms' || pathname === '/refund' || pathname === '/checkout' ? 'blue' : 'white'}.svg`} width={'140px'} />
         </div>
     );
+
+    useEffect(() => {
+        if(typeof window == 'undefined') {
+            return;
+        }
+        setWidth(window?.innerWidth)
+    }, [])
 
     useEffect(() => {
         const handleResize = () => {
