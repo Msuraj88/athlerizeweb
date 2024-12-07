@@ -29,6 +29,22 @@
   margin: 0px;
 }
 
+.mt-16 {
+  margin-top: 16px;
+}
+
+.mb-24 {
+  margin-bottom: 24px;
+}
+
+.Black-text {
+  color: $color-black !important;
+}
+
+.offer-text-clr {
+  color: $primary-color !important;
+}
+
 .app-white {
   // padding: $padding-24 $default-padding;
   background: $color-white;
@@ -60,67 +76,73 @@
   }
 }
 
-  .header-start {
-    display: flex;
-    // gap: 20px;
-    // -webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.1);
-    // -moz-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.1);
-    // box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.1);
-    // padding: $padding-8;
-    background: $color-white2;
-    border-radius: 50px;
+.header-start {
+  display: flex;
+  // gap: 20px;
+  // -webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.1);
+  // -moz-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.1);
+  // box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.1);
+  // padding: $padding-8;
+  background: $color-white2;
+  border-radius: 50px;
 
-    p {
-      color: $color-white;
-      font-size: 16px;
-      padding: $padding-12 $padding-24;
-      cursor: pointer;
-      margin: 0;
+  p {
+    color: $color-white;
+    font-size: 16px;
+    padding: $padding-12 $padding-24;
+    cursor: pointer;
+    margin: 0;
 
-      &.active {
-        color: $primary-color;
-        background-color: $color-white;
-        border-radius: 50px;
-      }
+    &.active {
+      color: $primary-color;
+      background-color: $color-white;
+      border-radius: 50px;
     }
   }
-
-  .joinlist-btn {
-    background: $color-white;
-    color: $primary-color;
-    padding: $padding-12 $padding-24;
-    border-radius: 25px;
-  
 }
+
+.joinlist-btn {
+  background: $color-white;
+  color: $primary-color;
+  padding: $padding-12 $padding-24;
+  border-radius: 25px;
+
+}
+
 .bg-white {
 
   background: $color-white2 !important;
-.App {
-  padding: $padding-24 $default-padding;
-  background: $color-white;
+
+  .App {
+    padding: $padding-24 $default-padding;
+    background: $color-white;
+  }
+
+  &.topbar-container {
+    background: $color-white;
+    border: none;
+    padding: $padding-16 $default-padding;
+  }
 }
-&.topbar-container {
-  background: $color-white;
-  border: none;
-  padding: $padding-16 $default-padding;
-}
-}
+
 .header-start {
   display: flex;
   // gap: 20px;
   // -webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.1);
   //   -moz-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.1);
   //   box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.1);
-    // background: $color-white;
-    // padding: $padding-8;
+  // background: $color-white;
+  // padding: $padding-8;
   // padding: $padding-8;
   border-radius: 50px;
+
   p {
     color: $color-black;
     font-size: 16px;
     padding: $padding-12 $padding-24;
     cursor: pointer;
     margin: 0;
+
     &.active {
       color: $color-white;
       background-color: $primary-color;
@@ -226,39 +248,47 @@
     }
   }
 }
+
 .message-section {
   display: flex;
   height: 650px;
   padding: 35px;
   padding-bottom: 0;
   align-items: end;
+
   .text-cont {
     padding: $padding-20;
     color: $color-white;
+
     h3 {
       color: $color-white;
       font-size: 40px;
     }
+
     p {
       color: $color-white;
       font-size: 18px;
       line-height: 25px;
+
       &.small {
         font-size: 14px;
         line-height: 0;
       }
     }
+
     h5 {
       font-size: 20px;
       margin: $margin-12 0;
     }
   }
+
   .img-cont {
     img {
       margin-bottom: -3px;
     }
   }
 }
+
 .main-home-container {
   background: $bg-blue;
 
@@ -861,9 +891,11 @@
 .abt-section {
   max-width: 1156px;
 }
+
 .aboutus-container {
   background: $color-white2;
 }
+
 .header-main-white {
   background: $color-white2;
   // color: $color-black;
@@ -872,16 +904,19 @@
   padding-top: 80px;
   border-bottom-right-radius: 25px;
   border-bottom-left-radius: 25px;
+
   h1 {
     font-size: 80px;
     // max-width: 720px;
     margin: auto;
   }
+
   p {
     font-size: 20px;
     margin: $padding-16;
   }
 }
+
 .courses-page {
   .header-section {
     margin: $default-padding;
@@ -918,6 +953,10 @@
       .Course-title {
         h1 {
           font-size: 42px;
+         
+        }
+        .text-left{
+          margin-top: 18px;
         }
       }
 
@@ -969,107 +1008,199 @@
       }
     }
   }
+
+  .custom-tabs {
+    border-bottom: 2px solid #e0e0e0;
+  }
+
+  .custom-tab-item {
+    margin-right: 20px;
+  }
+
+  .custom-tab-link {
+    font-weight: 600;
+    color: #555;
+    padding: 8px 16px;
+    transition: color 0.3s, border-bottom 0.3s;
+  }
+
+  .custom-tab-link:hover,
+  .custom-tab-link.active {
+    color: #007bff;
+    border-bottom: 2px solid #000000;
+  }
+
+  .tab-content {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #333;
+  }
+
+  .accordion-button:not(.collapsed) {
+    background-color: #005886;
+    color: $color-white;
+  }
+
+  // .accordion-body{
+  //   background: #f3f3f3;
+  // }
+  .accordion-item {
+    border: none;
+    background: #f3f3f3;
+    margin-bottom: 14px;
+  }
+
+  .accordion-button {
+    border-radius: 8px;
+  }
+
+  .accordion-button:focus {
+    box-shadow: none;
+  }
+
+  .Instructor-tab-sec {
+    .teacher-info-sec {
+      display: flex;
+    }
+
+    .teacher-info {
+      margin-left: 14px;
+    }
+  }
 }
-  .Course-info-sec {
-    background-color: #F3F3F3;
 
-    .nav-link {
-      color: #5A5A5A !important;
-      font-size: 18px;
+.Course-info-sec {
+  background-color: #F3F3F3;
+
+  .nav-link {
+    color: #5A5A5A !important;
+    font-size: 18px;
+  }
+
+  .nav-link.active {
+    color: #353535 !important;
+  }
+
+  .tab-nav-sec {
+    padding-top: 12px;
+    border-bottom: 1px solid #DADADA;
+  }
+
+  .title {
+    margin-bottom: 16px;
+
+    span {
+      color: #1b95d6;
     }
+  }
 
-    .nav-link.active {
-      color: #353535 !important;
+  .course-abt-sec {
+    padding: 10px 0px;
+
+    .abt-cards {
+      background-color: #fff;
+      text-align: center;
+      padding: 18px 12px;
+      border-radius: 14px;
+      box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
     }
+  }
 
-    .tab-nav-sec {
-      padding-top: 12px;
-      border-bottom: 1px solid #DADADA;
-    }
+  .course-who-sec {
+    padding: 20px 0px;
+  }
 
-    .title {
-      margin-bottom: 16px;
 
+  .highlight-sec {
+    .Highlight-list {
       span {
-        color: #1b95d6;
-      }
-    }
-
-    .course-abt-sec {
-      padding: 40px 0px;
-
-      .abt-cards {
-        background-color: #fff;
-        text-align: center;
-        padding: 18px 12px;
-        border-radius: 14px;
-        box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
-      }
-    }
-
-    .course-who-sec {
-      padding: 40px 0px;
-    }
-
-    .highlight-sec {
-      .Highlight-list {
-        span {
-          border: 1px solid #E2E2E2;
-          margin: 8px;
-          padding: 12px 16px;
-          display: inline-block;
-          border-radius: 50px;
-        }
-      }
-    }
-  }
-
-  .course-teacher-right {
-    background-color: #fff;
-    padding: 16px;
-    border-radius: 18px;
-    z-index: 10; // Ensure it stays above other content if necessary
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); // Optional shadow for a card effect
-
-
-    .course-thumb-img {
-      width: 100%;
-      max-height: 350px;
-      overflow: hidden;
-      border-radius: 16px;
-    }
-
-    .course-enroll-info {
-      padding: 18px 0px;
-
-      .enroll-btn {
-        background-color: #0089D1;
-        color: #fff;
-        padding: 16px;
-        width: 100%;
+        border: 1px solid #E2E2E2;
+        margin: 8px;
+        padding: 12px 16px;
+        display: inline-block;
         border-radius: 50px;
-        border: none;
-      }
-
-      .enroll-btn:hover {
-        background-color: #0272ae;
       }
     }
   }
+
+  .certification-section {
+    background-color: $color-white;
+    border-radius: 8px;
+    padding: 24px;
+    margin-bottom: 36px;
+  }
+
+  .cust-list {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .cust-list li {
+    margin-bottom: 20px;
+    /* Increases gap between lines */
+    font-size: 16px;
+    /* Adjusts the font size */
+    line-height: 1.6;
+    /* Increases line height for better readability */
+  }
+
+  .cust-list li strong {
+    font-weight: bold;
+  }
+}
+
+.course-teacher-right {
+  background-color: #fff;
+  padding: 16px;
+  border-radius: 18px;
+  z-index: 10; // Ensure it stays above other content if necessary
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); // Optional shadow for a card effect
+
+
+  .course-thumb-img {
+    width: 100%;
+    max-height: 350px;
+    overflow: hidden;
+    border-radius: 16px;
+  }
+
+  .course-enroll-info {
+    padding: 18px 0px;
+
+    .enroll-btn {
+      background-color: #0089D1;
+      color: #fff;
+      padding: 16px;
+      width: 100%;
+      border-radius: 50px;
+      border: none;
+
+
+    }
+
+    .enroll-btn:hover {
+      background-color: #0272ae;
+    }
+  }
+}
+
 .abt-cards {
   .card {
     border: none;
     border-radius: 15px;
+
     .title {
       font-size: 16px;
       border-left: 3px solid #0089D1;
       padding-left: $padding-12;
     }
+
     .desc {
       font-size: 12px;
       font-weight: 300;
       line-height: 20px;
     }
+
     .link {
       display: inline-block;
       margin-top: $padding-24;
@@ -1095,38 +1226,45 @@
 
 .abt-card-container {
   width: 270px;
-    padding: 20px;
-    background: #fff;
+  padding: 20px;
+  background: #fff;
+  border-radius: 15px;
+
+  img {
+    width: 100%;
     border-radius: 15px;
-    img {
-      width: 100%;
-      border-radius: 15px;
-    }
-    h2 {
-      font-size: 16px;
-      margin: 10px 0;
-    }
-    h5 {
-      color: #0089D1;
-      font-size: 14px;
-      font-weight: 400;
-      margin: 5px 0;
-    }
-    p {
-      font-size: 12px;
-    }
+  }
+
+  h2 {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+
+  h5 {
+    color: #0089D1;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 5px 0;
+  }
+
+  p {
+    font-size: 12px;
+  }
 }
 
 .main-footer-container {
   background: #1F1F1F;
+
   .first-section {
     padding: $default-padding;
   }
+
   ul {
     list-style: none;
     float: right;
     border-right: 1px solid $color-white;
     padding-right: $padding-24;
+
     li {
       color: $color-white;
       cursor: pointer;
@@ -1134,13 +1272,16 @@
       font-weight: 300;
     }
   }
+
   .payments-section {
     background: #171717;
   }
+
   .footer-section {
     p {
       font-size: 14px;
     }
+
     span {
       font-size: 10px;
     }
