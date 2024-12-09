@@ -21,6 +21,7 @@ const Contact = () => {
               </Card.Text>
             </Card.Body>
             <Card.Footer>
+              <a target='blank' href='https://forms.gle/VLyUcE5Phdg6kMSD8'>
               Join the Waitlist <span style={{ float: 'right' }}>
                 <svg
                   width="7"
@@ -37,6 +38,7 @@ const Contact = () => {
                   />
                 </svg>
               </span>
+              </a>
             </Card.Footer>
           </Card>
           <Card style={{ width: '18rem' }}>
@@ -47,6 +49,7 @@ const Contact = () => {
               </Card.Text>
             </Card.Body>
             <Card.Footer>
+              <a target='blank' href='https://forms.gle/sSCQe1434a2EBRXQ8'>
             Apply Now <span style={{ float: 'right' }}>
                 <svg
                   width="7"
@@ -63,6 +66,7 @@ const Contact = () => {
                   />
                 </svg>
               </span>
+              </a>
             </Card.Footer>
           </Card>
           <Card style={{ width: '18rem' }}>
@@ -73,6 +77,7 @@ const Contact = () => {
               </Card.Text>
             </Card.Body>
             <Card.Footer>
+              <a target='blank' href='https://forms.gle/PsjSWGqWA3ZePaom8'>
             Write to Us <span style={{ float: 'right' }}>
                 <svg
                   width="7"
@@ -89,6 +94,7 @@ const Contact = () => {
                   />
                 </svg>
               </span>
+              </a>
             </Card.Footer>
           </Card>
           </div>
