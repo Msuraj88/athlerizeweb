@@ -7,7 +7,8 @@ import Footer from "@/app/components/Footer";
 
 const CourseDetails = () => {
 
-  const [activeTab, setActiveTab] = useState('description');
+  const [activeTab, setActiveTab] = useState<string>('description');
+
 
   return (
     <div>
@@ -79,15 +80,26 @@ const CourseDetails = () => {
 
                 <div className='tab-nav-sec'>
                   <div className='container'>
-                    <Nav variant='underline' activeKey={activeTab} onSelect={(selectedKey) => setActiveTab(selectedKey)} className='custom-tabs'>
+                    <Nav
+                      variant='underline'
+                      activeKey={activeTab}
+                      onSelect={(selectedKey) => setActiveTab(selectedKey || 'description')}
+                      className='custom-tabs'
+                    >
                       <Nav.Item className='custom-tab-item'>
-                        <Nav.Link eventKey='description' className='custom-tab-link'>Description</Nav.Link>
+                        <Nav.Link eventKey='description' className='custom-tab-link'>
+                          Description
+                        </Nav.Link>
                       </Nav.Item>
                       <Nav.Item className='custom-tab-item'>
-                        <Nav.Link eventKey='curriculum' className='custom-tab-link'>Curriculum</Nav.Link>
+                        <Nav.Link eventKey='curriculum' className='custom-tab-link'>
+                          Curriculum
+                        </Nav.Link>
                       </Nav.Item>
                       <Nav.Item className='custom-tab-item'>
-                        <Nav.Link eventKey='instructor' className='custom-tab-link'>Instructor</Nav.Link>
+                        <Nav.Link eventKey='instructor' className='custom-tab-link'>
+                          Instructor
+                        </Nav.Link>
                       </Nav.Item>
                     </Nav>
 
