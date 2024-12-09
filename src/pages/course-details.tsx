@@ -154,13 +154,21 @@ const CourseDetails = () => {
                                   <span><i className="pi pi-check pi-check" style={{ fontSize: '1rem' }}></i></span>  <strong>Understanding the Journey:</strong> A comprehensive look at the journey of a sports career — from early-stage training to reaching a professional level.
                                 </li>
                                 <li>
-                                  <span><i className="pi pi-check pi-check" style={{ fontSize: '1rem' }}></i></span>  <strong>Understanding the Journey:</strong> A comprehensive look at the journey of a sports career — from early-stage training to reaching a professional level.
+                                  <span><i className="pi pi-check pi-check" style={{ fontSize: '1rem' }}></i></span>  <strong>Physical and Mental Preparedness</strong> Insights into the physical training and mental toughness required for sports.
+
                                 </li>
                                 <li>
-                                  <span><i className="pi pi-check pi-check" style={{ fontSize: '1rem' }}></i></span>  <strong>Understanding the Journey:</strong> A comprehensive look at the journey of a sports career — from early-stage training to reaching a professional level.
+                                  <span><i className="pi pi-check pi-check" style={{ fontSize: '1rem' }}></i></span>  <strong>Balancing Academics and Sports: </strong> How to manage both studies and sports commitments, and why academics are still important.
+
                                 </li>
                                 <li>
-                                  <span><i className="pi pi-check pi-check" style={{ fontSize: '1rem' }}></i></span>  <strong>Understanding the Journey:</strong> A comprehensive look at the journey of a sports career — from early-stage training to reaching a professional level.
+                                  <span><i className="pi pi-check pi-check" style={{ fontSize: '1rem' }}></i></span>  <strong>Building a Strong Foundation:</strong> Steps to develop essential skills, discipline, and routine from a young age.
+
+                                </li>
+                                <li>
+                                  <span><i className="pi pi-check pi-check" style={{ fontSize: '1rem' }}></i></span>  <strong>Support System and Role of Parents:</strong> Importance of parental support, mentorship, and the role family plays in an athlete's success.
+
+
                                 </li>
 
                               </ul>

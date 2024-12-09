@@ -17,9 +17,8 @@ const Aboutus = () => {
             what <span style={{ color: "#0089D1" }}>athleriZe</span> is all
             about
           </h1>
-          <p>
-            You know what we do. Now learn why we do what we do - and <br />
-            the people who make it happen.
+          <p style={{ maxWidth: '600px', margin: '16px auto' }}>
+            You may have a fair idea of what we do. Here’s why we do what we do, our mission, and the people who make everything happen.
           </p>
         </div>
         <div className="text-center m-5">
@@ -34,26 +33,16 @@ const Aboutus = () => {
             </Col>
             <Col xs={8} md={8} lg={8}>
               <p>
-                athleriZe is an e-learning platform dedicated to sports and all
-                the diverse areas that surround it. We’re on a mission to make
-                sports education accessible to athletes, enthusiasts, and
-                professionals alike, bridging the gap between knowledge and
-                passion.
+                We are an e-learning platform dedicated to all things sports. We are passionate about empowering athletes at all levels, from school & college students to budding stars & seasoned professionals, through world-class courses, expert mentorship, strategic guidance, and tools to elevate their game.
               </p>
               <p>
-                Whether it’s honing your skills, exploring new disciplines, or
-                gaining insights into the sports industry, athleriZe is here to
-                fuel your passion and drive your progress. Our platform is
-                designed to be a community-driven space where you can learn from
-                the best in the industry, connect with like-minded individuals,
-                and take steps towards achieving your dreams in sports and
-                beyond.
+                But athleriZe isn’t just for athletes! We make sports learning, expert insights and guidance accessible to sports enthusiasts and aspiring sports industry professionals. Whether you aim to refine your skills, advance your career, or simply deepen your love for sports, athleriZe has something for you.
               </p>
               <p>
-                <b>
-                  We envision a future where learning sports-related skills is
-                  as effortless and enjoyable as playing the game itself.
-                </b>
+                Our range of affordable courses, workshops, and seminars are taught by accomplished athletes, renowned coaches, & expert instructors.
+              </p>
+              <p>
+                By making sports learning affordable and accessible to all, we're ushering in a future where learning sports-related skills is as easy and enjoyable as playing the game itself.
               </p>
             </Col>
           </Row>
@@ -64,12 +53,21 @@ const Aboutus = () => {
               padding: "20px",
             }}
           >
-            <Col xs={3} md={3} lg={3}></Col>
+            <Col xs={3} md={3} lg={3}><h4>
+              our <span style={{ color: "#0089D1" }}>mission</span>
+            </h4></Col>
             <Col xs={8} md={8} lg={8}>
               <p>
                 To make high-quality sports education accessible, affordable,
                 and inspiring for everyone, everywhere.
               </p>
+
+            </Col>
+            <Col xs={3} md={3} lg={3}><h4>
+                our <span style={{ color: "#0089D1" }}>vission</span>
+              </h4></Col>
+            <Col xs={8} md={8} lg={8}>
+
               <p>
                 To become the go-to e-learning platform for everything sports.
               </p>
@@ -110,133 +108,134 @@ const Aboutus = () => {
           <Row className='page-cards'>
             <Col xs={12} md={5} lg={3}>
               <div>
-                <h1>who can <span style={{ color: "#0089D1" }}>use?</span></h1>
-                <p>Find courses that fit your passion, whether active or coming soon! Find courses that fit your passion.</p>
-                <Button label="View Courses" 
-                  onClick={() => router.push('/courses')} 
+                <h1>who can use <span style={{ color: "#0089D1" }}>athlerize?</span></h1>
+                <p>athleriZe, an e-learning platform designed for everyone, whether you dream of a sporting career, simply a sports enthusiast, or want to unlock discipline & fitness.
+                </p>
+                <Button label="View Courses"
+                  onClick={() => router.push('/courses')}
                   rounded className='joinlist-btn-blue' />
               </div>
             </Col>
             <Col xs={12} md={5} lg={1}></Col>
             <Col xs={12} md={5} lg={2} className="abt-cards">
-            <Card>
-              <Card.Body>
-                <Card.Title className="title">
-                  for school students
-                </Card.Title>
-                <Card.Text className="desc">
-                By joining our waitlist, you’ll be among the first to hear about exciting new courses, early-bird discounts, and exclusive booking opportunities for our limited slots.
-                </Card.Text>
-                <Card.Link href="#" className="link">get started  
-                <span style={{ marginLeft: '50px' }}>
-                <svg
-                  width="7"
-                  height="11"
-                  viewBox="0 0 7 11"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M1.24902 10.4988L6.08197 5.66589L1.24902 0.832947"
-                    stroke="#000"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </span>
-                </Card.Link>
-              </Card.Body>
-            </Card>
+              <Card>
+                <Card.Body>
+                  <Card.Title className="title">
+                    for kids
+                  </Card.Title>
+                  <Card.Text className="desc">
+                    Gain an early advantage in your sports journey with athleriZe. Learn from world-class experts, master essential techniques & watch your skills soar.
+                  </Card.Text>
+                  <Card.Link href="#" className="link">get started
+                    <span style={{ marginLeft: '50px' }}>
+                      <svg
+                        width="7"
+                        height="11"
+                        viewBox="0 0 7 11"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M1.24902 10.4988L6.08197 5.66589L1.24902 0.832947"
+                          stroke="#000"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                      </svg>
+                    </span>
+                  </Card.Link>
+                </Card.Body>
+              </Card>
             </Col>
             <Col xs={12} md={5} lg={2} className="abt-cards">
-            <Card>
-              <Card.Body>
-                <Card.Title className="title">
-                  for college students
-                </Card.Title>
-                <Card.Text className="desc">
-                By joining our waitlist, you’ll be among the first to hear about exciting new courses, early-bird discounts, and exclusive booking opportunities for our limited slots.
-                </Card.Text>
-                <Card.Link href="#" className="link">get started  
-                <span style={{ marginLeft: '50px' }}>
-                <svg
-                  width="7"
-                  height="11"
-                  viewBox="0 0 7 11"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M1.24902 10.4988L6.08197 5.66589L1.24902 0.832947"
-                    stroke="#000"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </span>
-                </Card.Link>
-              </Card.Body>
-            </Card>
+              <Card>
+                <Card.Body>
+                  <Card.Title className="title">
+                    for college students
+                  </Card.Title>
+                  <Card.Text className="desc">
+                    Open the gateway to a thriving career in the sports industry. Learn from the best, master your craft, & shape your destiny.
+                  </Card.Text>
+                  <Card.Link href="#" className="link">get started
+                    <span style={{ marginLeft: '50px' }}>
+                      <svg
+                        width="7"
+                        height="11"
+                        viewBox="0 0 7 11"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M1.24902 10.4988L6.08197 5.66589L1.24902 0.832947"
+                          stroke="#000"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                      </svg>
+                    </span>
+                  </Card.Link>
+                </Card.Body>
+              </Card>
             </Col>
             <Col xs={12} md={5} lg={2} className="abt-cards">
-            <Card>
-              <Card.Body>
-                <Card.Title className="title">
-                sports enthusiasts
-                </Card.Title>
-                <Card.Text className="desc">
-                By joining our waitlist, you’ll be among the first to hear about exciting new courses, early-bird discounts, and exclusive booking opportunities for our limited slots.
-                </Card.Text>
-                <Card.Link href="#" className="link">get started  
-                <span style={{ marginLeft: '50px' }}>
-                <svg
-                  width="7"
-                  height="11"
-                  viewBox="0 0 7 11"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M1.24902 10.4988L6.08197 5.66589L1.24902 0.832947"
-                    stroke="#000"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </span>
-                </Card.Link>
-              </Card.Body>
-            </Card>
+              <Card>
+                <Card.Body>
+                  <Card.Title className="title">
+                    sports enthusiasts
+                  </Card.Title>
+                  <Card.Text className="desc">
+                    Gain expert advice & insights to improve physical & mental wellbeing, game, learn skills like focus, resilience & discipline or simply elevate your fan experience.
+                  </Card.Text>
+                  <Card.Link href="#" className="link">get started
+                    <span style={{ marginLeft: '50px' }}>
+                      <svg
+                        width="7"
+                        height="11"
+                        viewBox="0 0 7 11"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M1.24902 10.4988L6.08197 5.66589L1.24902 0.832947"
+                          stroke="#000"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                      </svg>
+                    </span>
+                  </Card.Link>
+                </Card.Body>
+              </Card>
             </Col>
             <Col xs={12} md={5} lg={2} className="abt-cards">
-            <Card>
-              <Card.Body>
-                <Card.Title className="title">
-                for athletes
-                </Card.Title>
-                <Card.Text className="desc">
-                By joining our waitlist, you’ll be among the first to hear about exciting new courses, early-bird discounts, and exclusive booking opportunities for our limited slots.
-                </Card.Text>
-                <Card.Link href="#" className="link">get started  
-                <span style={{ marginLeft: '50px' }}>
-                <svg
-                  width="7"
-                  height="11"
-                  viewBox="0 0 7 11"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M1.24902 10.4988L6.08197 5.66589L1.24902 0.832947"
-                    stroke="#000"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </span>
-                </Card.Link>
-              </Card.Body>
-            </Card>
+              <Card>
+                <Card.Body>
+                  <Card.Title className="title">
+                    for athletes
+                  </Card.Title>
+                  <Card.Text className="desc">
+                    Master advanced techniques & unlock peak performance with sessions, guidance & insights from world-class athletes, renowned coaches, & expert instructors.
+                  </Card.Text>
+                  <Card.Link href="#" className="link">get started
+                    <span style={{ marginLeft: '50px' }}>
+                      <svg
+                        width="7"
+                        height="11"
+                        viewBox="0 0 7 11"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M1.24902 10.4988L6.08197 5.66589L1.24902 0.832947"
+                          stroke="#000"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                      </svg>
+                    </span>
+                  </Card.Link>
+                </Card.Body>
+              </Card>
             </Col>
           </Row>
         </Container>
@@ -286,19 +285,19 @@ const Aboutus = () => {
             <h2 className="m-4">our <span style={{ color: "#0089D1" }}>coaches (advisors)</span></h2>
             <Container>
               <Row noGutters>
-                <Col  xs={12} md={6} lg={3}>
-                <div className='abt-card-container m-auto text-center my-3'>
-                  <img src='/assets/images/nandiraju.png' />
-                  <h2>Srikanth N</h2>
-                  <h5>Technology</h5>
-              </div>
+                <Col xs={12} md={6} lg={3}>
+                  <div className='abt-card-container m-auto text-center my-3'>
+                    <img src='/assets/images/nandiraju.png' />
+                    <h2>Srikanth N</h2>
+                    <h5>Technology</h5>
+                  </div>
                 </Col>
-                <Col  xs={12} md={6} lg={3}>
-                <div className='abt-card-container m-auto text-center my-3'>
-                  <img src='/assets/images/namrata.png' />
-                  <h2>Namrata Nair</h2>
-                  <h5>Legal</h5>
-              </div>
+                <Col xs={12} md={6} lg={3}>
+                  <div className='abt-card-container m-auto text-center my-3'>
+                    <img src='/assets/images/namrata.png' />
+                    <h2>Namrata Nair</h2>
+                    <h5>Legal</h5>
+                  </div>
                 </Col>
               </Row>
             </Container>
@@ -308,32 +307,32 @@ const Aboutus = () => {
           <img src="/assets/images/joinsqd.png" alt="" width={'100%'} />
         </div>
         <div className='partners-section'>
-      <div className='header'>
-        <div>
-          <h1>Our <span>partners</span></h1>
-          <p>Find courses that fit your passion, whether active or coming soon!</p>
-        </div>
-        </div>
-        <div className='partner-imgs'>
-          <div>
-            <img src='/assets/images/oa.png' alt='' />
+          <div className='header'>
+            <div>
+              <h1>Our <span>partners</span></h1>
+              <p>Find courses that fit your passion, whether active or coming soon!</p>
+            </div>
           </div>
-          <div>
-            <img src='/assets/images/hh.png' alt='' />
+          <div className='partner-imgs'>
+            <div>
+              <img src='/assets/images/oa.png' alt='' />
+            </div>
+            <div>
+              <img src='/assets/images/hh.png' alt='' />
+            </div>
+            <div>
+              <img src='/assets/images/hbh.png' alt='' />
+            </div>
+            <div>
+              <img src='/assets/images/blitz.png' alt='' />
+            </div>
+            <div>
+              <img src='/assets/images/bf.png' alt='' />
+            </div>
+            <div>
+              <img src='/assets/images/inde.png' alt='' />
+            </div>
           </div>
-          <div>
-            <img src='/assets/images/hbh.png' alt='' />
-          </div>
-          <div>
-            <img src='/assets/images/blitz.png' alt='' />
-          </div>
-          <div>
-            <img src='/assets/images/bf.png' alt='' />
-          </div>
-          <div>
-            <img src='/assets/images/inde.png' alt='' />
-          </div>
-        </div>
         </div>
       </div>
       <Footer />

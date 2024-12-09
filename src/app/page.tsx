@@ -18,15 +18,15 @@ export default function Home() {
       <h1>
         where <span>sports</span> meets learning.
       </h1>
-      <p>Learn from the best and take your next step with confidence.</p>
+      <p>Learn from superstars in the sporting field & take your next steps with confidence. </p>
       <Button label="View Courses" 
       onClick={() => router.push('/courses')} 
       rounded className='joinlist-btn' />
     </div>
     <div className='message-section'>
       <div className='text-cont'>
-        <h3>A Message from the <br />Mastermind</h3>
-        <p>As a professional athlete, I know the value of learning from the best. athleriZe offers tailored programs for athletes, students, working professionals of any age, level and everyone in between. Join our community of learners and take your passion to the next level.</p>
+        <h3>Message From Our  <br />Mastermind</h3>
+        <p>As a professional athlete, I understand the power of learning and mentorship. Throughout my career, I've had the privilege of learning from some of the greatest minds in the field. I believe this sort of world-class training, expert mentorship, and a supportive community should be accessible and affordable to everyone. And thus, athleriZe was founded.</p>
         <h5>Sai Praneeth B</h5>
         <p className='small'><small>Founding Partner, athleriZe</small></p>
         <p className='small'><small>Arjuna Awardee, Olympian, Former World No. 10 Badminton Player.</small></p>
@@ -60,8 +60,9 @@ export default function Home() {
           <Row className='page-cards'>
             <Col xs={12} md={5} lg={3}>
               <div>
-                <h1>who can <span style={{ color: "#0089D1" }}>use?</span></h1>
-                <p>Find courses that fit your passion, whether active or coming soon! Find courses that fit your passion.</p>
+                <h1>who can use <span style={{ color: "#0089D1" }}>athlerize?</span></h1>
+                <p>athleriZe, an e-learning platform designed for everyone, whether you dream of a sporting career, simply a sports enthusiast, or want to unlock discipline & fitness.
+                </p>
                 <Button label="View Courses" 
                   onClick={() => router.push('/courses')} 
                   rounded className='joinlist-btn-blue' />
@@ -72,10 +73,10 @@ export default function Home() {
             <Card>
               <Card.Body>
                 <Card.Title className="title">
-                  for school students
+                for kids
                 </Card.Title>
                 <Card.Text className="desc">
-                By joining our waitlist, you’ll be among the first to hear about exciting new courses, early-bird discounts, and exclusive booking opportunities for our limited slots.
+                Gain an early advantage in your sports journey with athleriZe. Learn from world-class experts, master essential techniques & watch your skills soar. 
                 </Card.Text>
                 <Card.Link href="#" className="link">get started  
                 <span style={{ marginLeft: '50px' }}>
@@ -102,10 +103,10 @@ export default function Home() {
             <Card>
               <Card.Body>
                 <Card.Title className="title">
-                  for college students
+                for college students
                 </Card.Title>
                 <Card.Text className="desc">
-                By joining our waitlist, you’ll be among the first to hear about exciting new courses, early-bird discounts, and exclusive booking opportunities for our limited slots.
+                Open the gateway to a thriving career in the sports industry. Learn from the best, master your craft, & shape your destiny. 
                 </Card.Text>
                 <Card.Link href="#" className="link">get started  
                 <span style={{ marginLeft: '50px' }}>
@@ -135,7 +136,7 @@ export default function Home() {
                 sports enthusiasts
                 </Card.Title>
                 <Card.Text className="desc">
-                By joining our waitlist, you’ll be among the first to hear about exciting new courses, early-bird discounts, and exclusive booking opportunities for our limited slots.
+                Gain expert advice & insights to improve physical & mental wellbeing, game, learn skills like focus, resilience & discipline or simply elevate your fan experience.
                 </Card.Text>
                 <Card.Link href="#" className="link">get started  
                 <span style={{ marginLeft: '50px' }}>
@@ -165,7 +166,7 @@ export default function Home() {
                 for athletes
                 </Card.Title>
                 <Card.Text className="desc">
-                By joining our waitlist, you’ll be among the first to hear about exciting new courses, early-bird discounts, and exclusive booking opportunities for our limited slots.
+                Master advanced techniques & unlock peak performance with sessions, guidance & insights from world-class athletes, renowned coaches, & expert instructors.  
                 </Card.Text>
                 <Card.Link href="#" className="link">get started  
                 <span style={{ marginLeft: '50px' }}>
@@ -195,7 +196,7 @@ export default function Home() {
         <Col>
           <p>the athleriZe advantage</p>
           <h1>building careers beyond <br />the game</h1>
-          <p>Your ambitions, passions and love towards sports <br />deserve the right platform. </p>
+          <p>with focused courses, expert guidance, <br></br> and mentoring.  </p>
           <img src='/assets/images/sai-career.png' className='career-img' />
         </Col>
         <Col className='align-content-end'>
@@ -204,7 +205,8 @@ export default function Home() {
             <Row>
               <Col lg="3"><img src='/assets/images/career.svg' /></Col>
               <Col lg="6">
-                <p>Expert Instructions</p>
+                <p>Expert instructors & top athletes 
+                </p>
               </Col>
             </Row>
           </div>
@@ -212,7 +214,7 @@ export default function Home() {
           <Row>
               <Col lg="3"><img src='/assets/images/career.svg' /></Col>
               <Col lg="6">
-                <p>Top Athletes</p>
+                <p>Personalized learning paths</p>
               </Col>
             </Row>
           </div>
@@ -230,7 +232,7 @@ export default function Home() {
           <Row>
               <Col lg="3"><img src='/assets/images/career.svg' /></Col>
               <Col lg="6">
-                <p>Internship Programs</p>
+                <p>Career advancement  </p>
               </Col>
             </Row>
           </div>
@@ -240,7 +242,7 @@ export default function Home() {
             <Row>
               <Col lg="3"><img src='/assets/images/career.svg' /></Col>
               <Col lg="6">
-                <p>Diverse Topics</p>
+                <p>World-class mentorship</p>
               </Col>
             </Row>
           </div>
@@ -248,7 +250,8 @@ export default function Home() {
           <Row>
               <Col lg="3"><img src='/assets/images/career.svg' /></Col>
               <Col lg="6">
-                <p>Career Focussed</p>
+                <p>Diverse topics for diverse users 
+                </p>
               </Col>
             </Row>
           </div>

@@ -9,9 +9,9 @@ const CourseCard = ({isLaunchSoon}: any) => {
         <span className='launch-text'>Launching Soon</span>
       }
         <div className='details'>
-        <h1>SAI PRANEETH</h1>
-        <h5>From Grassroots to Glory: Building a Career in Sports</h5>
-        <p>14 Sessions | 2 Days | 2 Hours</p>
+        <h1 className='f700'>SAI PRANEETH</h1>
+        <span>From Grassroots to Glory: Building a Career in Sports</span>
+        <p className='mt-16'>14 Sessions | 2 Days | 2 Hours</p>
         </div>
     </div>
   )

@@ -13,13 +13,13 @@ const Courses = () => {
                 <h1>
                 Your learning journey starts here
                 </h1>
-                <p>Find courses that fit your passion, whether active or coming soon!</p>
+                <p>Find courses that fit your passion and goals</p>
             </div>
             <div className='main-courses'>
             <div className='header-section'>
                 <div>
                 <h1>our <span>courses</span></h1>
-                <p>Find courses that fit your passion, whether active or coming soon!</p>
+                <p>Browse our active and upcoming courses</p>
                 </div>
                 <Container style={{width: '80%'}}>
                     <Row>
