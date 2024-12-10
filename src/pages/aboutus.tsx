@@ -17,7 +17,7 @@ const Aboutus = () => {
             what <span style={{ color: "#0089D1" }}>athleriZe</span> is all
             about
           </h1>
-          <p style={{ maxWidth: '600px', margin: '16px auto' }}>
+          <p style={{ maxWidth: '600px', margin: '16px auto', fontWeight: "200" }}>
             You may have a fair idea of what we do. Here’s why we do what we do, our mission, and the people who make everything happen.
           </p>
         </div>
@@ -64,8 +64,8 @@ const Aboutus = () => {
 
             </Col>
             <Col xs={3} md={3} lg={3}><h4>
-                our <span style={{ color: "#0089D1" }}>vission</span>
-              </h4></Col>
+              our <span style={{ color: "#0089D1" }}>vission</span>
+            </h4></Col>
             <Col xs={8} md={8} lg={8}>
 
               <p>
@@ -78,30 +78,15 @@ const Aboutus = () => {
           className="message-section"
           style={{ background: "#0089D1", marginTop: "220px" }}
         >
-          <div className="text-cont">
-            <h3>
-              A Message from the <br />
-              Mastermind
-            </h3>
-            <p>
-              As a professional athlete, I know the value of learning from the
-              best. athleriZe offers tailored programs for athletes, students,
-              working professionals of any age, level and everyone in between.
-              Join our community of learners and take your passion to the next
-              level.
-            </p>
+           <div className='text-cont mb-16'>
+            <h3>Message From Our  <br />Mastermind</h3>
+            <p className='mb-24 mt-24'>As a professional athlete, I understand the power of learning and mentorship. Throughout my career, I've had the privilege of learning from some of the greatest minds in the field. I believe this sort of world-class training, expert mentorship, and a supportive community should be accessible and affordable to everyone. And thus, athleriZe was founded.</p>
             <h5>Sai Praneeth B</h5>
-            <p className="small">
-              <small>Founding Partner, athleriZe</small>
-            </p>
-            <p className="small">
-              <small>
-                Arjuna Awardee, Olympian, Former World No. 10 Badminton Player.
-              </small>
-            </p>
+            <p className='small'><small className='f400'>Founding Partner, athleriZe</small></p>
+            <p className='small' ><small>Arjuna Awardee, Olympian, Former World No. 10 Badminton Player.</small></p>
           </div>
-          <div className="img-cont">
-            <img src="/assets/images/sai-msg.png" />
+          <div className='img-cont'>
+            <img src='/assets/images/sai-msg.png' />
           </div>
         </div>
         <Container className="py-5">
@@ -249,10 +234,10 @@ const Aboutus = () => {
             <Container>
               <Row>
                 <Col xs={12} md={6} lg={3}>
-                  <AbtCards name={'Anil Kumar M'} desc={'Founder, Captain'} email={'anil@athlerize.com'} />
+                  <AbtCards img={'Anil'} name={'Anil Kumar M'} desc={'Founder, Captain'} email={''} />
                 </Col>
                 <Col xs={12} md={6} lg={3}>
-                  <AbtCards name={'Sai Praneeth B'} desc={'Founding Partner, Vice Captain'} email={''} />
+                  <AbtCards img={'t-sai'} name={'Sai Praneeth B'} desc={'Founding Partner, Vice Captain'} email={''} />
                 </Col>
                 <Col></Col>
                 <Col></Col>
@@ -260,23 +245,23 @@ const Aboutus = () => {
             </Container>
           </div>
           <div className="abt-us-margin">
-            <h2 className="m-4">our <span style={{ color: "#0089D1" }}>star squad</span></h2>
             <Container>
+              <h2 className="m-4">our <span style={{ color: "#0089D1" }}>star squad</span></h2>
               <Row>
                 <Col xs={12} md={6} lg={3}>
-                  <AbtCards name={'Kamala Grace'} desc={'All Rounder'} email={''} />
+                  <AbtCards img={'t-kamala'} name={'Kamala Grace'} desc={'All Rounder'} email={''} />
                 </Col>
                 <Col xs={12} md={6} lg={3}>
-                  <AbtCards name={'Ritika'} desc={'All Rounder'} email={''} />
-                </Col>
-                <Col xs={12} md={6} lg={3}>
-                  <AbtCards name={'Sreevatsa C'} desc={'All Rounder'} email={''} />
+                  <AbtCards img={'t-seevatsa'} name={'Sreevatsa C'} desc={'All Rounder'} email={''} />
                 </Col>
                 <Col>
-                  <AbtCards name={'Tarun Raidu'} desc={'All Rounder'} email={''} />
+                  <AbtCards img={'t-raidu'} name={'Tarun Raidu'} desc={'All Rounder'} email={''} />
                 </Col>
                 <Col xs={12} md={6} lg={3}>
-                  <AbtCards name={'Sharanya'} desc={'All Rounder'} email={''} />
+                  <AbtCards img={'t-ritika'} name={'Ritika'} desc={'All Rounder'} email={''} />
+                </Col>
+                <Col xs={12} md={6} lg={3}>
+                  <AbtCards img={'t-sharanya'} name={'Sharanya'} desc={'All Rounder'} email={''} />
                 </Col>
               </Row>
             </Container>
@@ -303,7 +288,7 @@ const Aboutus = () => {
             </Container>
           </div>
         </div>
-        <div className="text-center">
+        <div className="container text-center">
           <img src="/assets/images/joinsqd.png" alt="" width={'100%'} />
         </div>
         <div className='partners-section'>
