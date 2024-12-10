@@ -10,18 +10,18 @@ export default function Partners() {
         <div className="header-main">
           <h1>our partners</h1>
           <p>
-            Find courses that fit your passion, whether active or coming soon!
+            Collaborating with the best to bring you to the best
           </p>
         </div>
       </div>
       <div className="partners-section">
-        <p>
+        <h4 className="mb-24">
           league <span style={{ color: "#0089D1" }}>franchisee’s</span>
-        </p>
+        </h4>
         <div className="partners-card">
           <div>
             <img src="/assets/images/hh.png" />
-            <p style={{ color: "#0089D1" }}>
+            <p style={{ color: "#0089D1", marginTop:"24px"}}>
               Hyderabad Hunters{" "}
               <span style={{ float: "right" }}>
                 <svg
@@ -40,7 +40,7 @@ export default function Partners() {
                 </svg>
               </span>
             </p>
-            <span>
+            <span className="f200">
               Hyderabad Hunters is a badminton team owned by Agile Entertainment
               Pvt. Ltd. for the Premier Badminton League (PBL).
             </span>
@@ -66,73 +66,22 @@ export default function Partners() {
                 </svg>
               </span>
             </p>
-            <span>
+            <span className="f200">
               Hyderabad Hunters is a badminton team owned by Agile Entertainment
               Pvt. Ltd. for the Premier Badminton League (PBL).
             </span>
           </div>
-          <div>
-            <img src="/assets/images/hh.png" />
-            <p style={{ color: "#0089D1" }}>
-              Hyderabad Hunters
-              <span style={{ float: "right" }}>
-                <svg
-                  width="7"
-                  height="11"
-                  viewBox="0 0 7 11"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M1.24902 10.4988L6.08197 5.66589L1.24902 0.832947"
-                    stroke="#80C4E8"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </span>
-            </p>
-            <span>
-              Hyderabad Hunters is a badminton team owned by Agile Entertainment
-              Pvt. Ltd. for the Premier Badminton League (PBL).
-            </span>
-          </div>
-          <div>
-            <img src="/assets/images/hh.png" />
-            <p style={{ color: "#0089D1" }}>
-              Hyderabad Hunters
-              <span style={{ float: "right" }}>
-                <svg
-                  width="7"
-                  height="11"
-                  viewBox="0 0 7 11"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M1.24902 10.4988L6.08197 5.66589L1.24902 0.832947"
-                    stroke="#80C4E8"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </span>
-            </p>
-            <span>
-              Hyderabad Hunters is a badminton team owned by Agile Entertainment
-              Pvt. Ltd. for the Premier Badminton League (PBL).
-            </span>
-          </div>
+          
         </div>
       </div>
       <div className="partners-section">
-        <p>
+        <h4 className="mb-24">
           official fan <span style={{ color: "#0089D1" }}>clubs</span>
-        </p>
+        </h4>
         <div className="partners-card">
           <div>
             <img src="/assets/images/oa.png" />
-            <p style={{ color: "#0089D1" }}>
+            <p style={{ color: "#0089D1", marginTop:"24px" }}>
               Orange Army Fan Club{" "}
               <span style={{ float: "right" }}>
                 <svg
@@ -151,8 +100,8 @@ export default function Partners() {
                 </svg>
               </span>
             </p>
-            <span>
-            The Official Fanclub of Sunrisers Hyderabad franchise of IPL (Indian Premier  League), based in Hyderabad, India.
+            <span className="f200">
+              The Official Fanclub of Sunrisers Hyderabad franchise of IPL (Indian Premier  League), based in Hyderabad, India.
             </span>
           </div>
           <div>
@@ -176,7 +125,7 @@ export default function Partners() {
                 </svg>
               </span>
             </p>
-            <span>
+            <span className="f200">
               Hyderabad Hunters is a badminton team owned by Agile Entertainment
               Pvt. Ltd. for the Premier Badminton League (PBL).
             </span>
@@ -184,13 +133,13 @@ export default function Partners() {
         </div>
       </div>
       <div className="partners-section">
-        <p>
+        <h4 className="mb-24">
           other <span style={{ color: "#0089D1" }}>associates</span>
-        </p>
+        </h4>
         <div className="partners-card">
           <div>
             <img src="/assets/images/blitz.png" />
-            <p style={{ color: "#0089D1" }}>
+            <p style={{ color: "#0089D1", marginTop:"24px" }}>
               Blitz Group{" "}
               <span style={{ float: "right" }}>
                 <svg
@@ -209,8 +158,8 @@ export default function Partners() {
                 </svg>
               </span>
             </p>
-            <span>
-            One of the top event management company based in Hyderabad, with expertise in sports events of any size.
+            <span className="f200">
+              One of the top event management company based in Hyderabad, with expertise in sports events of any size.
             </span>
           </div>
         </div>

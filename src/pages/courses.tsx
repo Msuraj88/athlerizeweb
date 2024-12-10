@@ -23,15 +23,15 @@ const Courses = () => {
                 </div>
                 <Container style={{width: '80%'}}>
                     <Row>
-                        <Col><CourseCard isLaunchSoon={false} /></Col>
-                        <Col><CourseCard isLaunchSoon={true} /></Col>
-                        <Col><CourseCard isLaunchSoon={true} /></Col>
-                        <Col><CourseCard isLaunchSoon={true} /></Col>
-                        <Col><CourseCard isLaunchSoon={true} /></Col>
-                        <Col><CourseCard isLaunchSoon={true} /></Col>
-                        <Col><CourseCard isLaunchSoon={true} /></Col>
-                        <Col><CourseCard isLaunchSoon={true} /></Col>
-                        <Col><CourseCard isLaunchSoon={true} /></Col>
+                        <Col><CourseCard  bgImg={'t-saipraneeth'} isLaunchSoon={false} /></Col>
+                        <Col><CourseCard   bgImg={'kunal2'}isLaunchSoon={true} /></Col>
+                        <Col><CourseCard   bgImg={'revanth2'}isLaunchSoon={true} /></Col>
+                        <Col><CourseCard   bgImg={'das'}isLaunchSoon={true} /></Col>
+                        <Col><CourseCard   bgImg={'siya'}isLaunchSoon={true} /></Col>
+                        <Col><CourseCard   bgImg={'karthik'}isLaunchSoon={true} /></Col>
+                        {/* <Col><CourseCard   bgImg={'t-saipraneeth'}isLaunchSoon={true} /></Col>
+                        <Col><CourseCard  isLaunchSoon={true} /></Col>
+                        <Col><CourseCard isLaunchSoon={true} /></Col> */}
                     </Row>
                     </Container>
             </div>

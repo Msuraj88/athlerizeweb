@@ -7,6 +7,7 @@
 @import 'primeicons/primeicons';
 @import 'bootstrap/dist/css/bootstrap.min.css';
 @import './_variables';
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 // :root {
 //   --background: #ffffff;
 //   --foreground: #171717;
@@ -25,6 +26,22 @@
 //   font-family: Arial, Helvetica, sans-serif;
 // }
 
+body {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+
+  p{
+    font-weight: 200;
+  }
+}
+
+.f200 {
+  font-weight: 200;
+}
+
+.f400 {
+  font-weight: 400;
+}
+
 .m-0 {
   margin: 0px;
 }
@@ -32,14 +49,20 @@
 .mt-16 {
   margin-top: 16px;
 }
+
 .mb-16 {
   margin-bottom: 16px;
 }
+
 .mb-24 {
   margin-bottom: 24px;
 }
 
-.f700{
+.mt-24 {
+  margin-top: 24px;
+}
+
+.f700 {
   font-weight: 700;
 }
 
@@ -80,6 +103,10 @@
     background: $primary-color;
     border: none;
   }
+}
+
+.course-btn {
+  border-radius: 50px;
 }
 
 .header-start {
@@ -216,7 +243,7 @@
 
   .message-section {
     display: flex;
-    height: 650px;
+    height: 500px;
     padding: 35px;
     padding-bottom: 0;
     align-items: end;
@@ -227,7 +254,7 @@
 
       h3 {
         color: $color-white;
-        font-size: 40px;
+        font-size: 48px;
       }
 
       p {
@@ -235,11 +262,11 @@
         font-size: 21px;
         line-height: 25px;
         font-weight: 300;
-        margin: 18px 0px;
+
 
         &.small {
           font-size: 18px;
-          line-height: 0;
+          line-height: .4;
         }
       }
 
@@ -251,7 +278,7 @@
 
     .img-cont {
       img {
-        margin-bottom: -3px;
+        margin-bottom: 0px;
       }
     }
   }
@@ -292,7 +319,7 @@
 
   .img-cont {
     img {
-      margin-bottom: -3px;
+      // margin-bottom: -3px;
     }
   }
 }
@@ -415,7 +442,7 @@
     max-width: 700px;
     font-size: 90px;
     color: #313131;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 80px;
     font-family: 'Gulzar', sans-serif;
     margin-bottom: 18px;
@@ -428,6 +455,8 @@
   p {
     margin: 0px;
     margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 300;
   }
 }
 
@@ -700,41 +729,53 @@
   .team-container .team-block .profiles {
     flex-direction: column;
   }
+
   .main-home-container .message-section {
     flex-direction: column;
     height: auto;
   }
+
   .page-cards {
     gap: 20px
   }
+
   .abt-us-margin {
     margin: 0;
   }
+
   .contact-container .cards-section {
     width: 90% !important;
+
     .card {
       width: 100% !important;
     }
   }
+
   .p-menu-list {
     padding: 0;
+
     li {
       text-align: center;
+
       a {
         text-decoration: none;
       }
     }
   }
+
   .bg-white.topbar-container {
     padding: $padding-16 !important;
   }
+
   .pp-page {
     padding: $padding-16 !important;
+
     .inside-section {
       margin: $margin-12 !important;
       width: 95% !important;
     }
   }
+
   .contact-container {
     .vr-line {
       height: 1px !important;
@@ -742,34 +783,43 @@
       margin: $margin-12 0;
     }
   }
+
   .courses-page .header-section {
     margin: $margin-12 !important;
   }
+
   .partners-section .partners-card {
     flex-direction: column;
   }
+
   .img-cont {
     display: none;
-  } 
+  }
+
   .footer-imgs {
     flex-direction: column;
     gap: 10px;
   }
+
   .main-home-container .courses-section .career-section {
     .col {
       p {
         padding: $padding-12;
       }
+
       h1 {
         padding: $padding-12;
       }
     }
+
     height: auto;
     padding: 0 !important;
+
     .career-img {
       position: static;
       width: 100%;
     }
+
     .align-content-end {
       align-content: start !important;
     }
@@ -893,7 +943,8 @@
   }
 
   p {
-    font-size: 16px;
+    font-size: 20px;
+    font-weight: 200;
   }
 }
 
@@ -909,7 +960,7 @@
   background: $color-white2;
   // color: $color-black;
   text-align: center;
-  padding: $default-padding 0;
+  // padding: $default-padding 0;
   padding-top: 80px;
   border-bottom-right-radius: 25px;
   border-bottom-left-radius: 25px;
@@ -962,9 +1013,10 @@
       .Course-title {
         h1 {
           font-size: 42px;
-         
+
         }
-        .text-left{
+
+        .text-left {
           margin-top: 18px;
         }
       }
@@ -1221,8 +1273,8 @@
 }
 
 .joinlist-btn {
-  background: $color-white;
-  color: $primary-color;
+  background: $primary-color;
+  color: $color-white;
   padding: $padding-12 $padding-24;
   border-radius: 25px;
 }
@@ -1301,21 +1353,25 @@
 .contact-container {
   background-color: $color-white2;
   padding: $margin-20;
+
   .cards-section {
     width: 70%;
     margin: auto;
+
     .card {
       border: none;
       border-radius: 15px;
-      -webkit-box-shadow: 3px 10px 15px 0px rgba(201,201,201,1);
-      -moz-box-shadow: 3px 10px 15px 0px rgba(201,201,201,1);
-      box-shadow: 3px 10px 15px 0px rgba(201,201,201,1);
+      -webkit-box-shadow: 3px 10px 15px 0px rgba(201, 201, 201, 1);
+      -moz-box-shadow: 3px 10px 15px 0px rgba(201, 201, 201, 1);
+      box-shadow: 3px 10px 15px 0px rgba(201, 201, 201, 1);
+
       p {
         font-weight: 300;
         font-size: 14px;
       }
     }
   }
+
   .vr-line {
     border: 1px solid #0089D1;
     display: inline-block;
@@ -1327,8 +1383,10 @@
   .accordion-item {
     border: none;
   }
+
   .accordion-button {
     background: transparent;
+
     &:focus {
       box-shadow: none;
     }
@@ -1338,22 +1396,27 @@
 .pp-page {
   background: $color-white2;
   padding: $default-padding;
+
   .inside-section {
     width: 70%;
     margin: auto;
+
     h5 {
       font-weight: 300;
     }
+
     h1 {
       font-size: 60px;
+
       span {
         color: $bg-blue;
       }
     }
+
     p {
       font-size: 14px;
-    line-height: 26px;
-    font-weight: 300;
+      line-height: 26px;
+      font-weight: 300;
     }
   }
 }
@@ -1362,18 +1425,21 @@
   border: 1px solid #D9D9D9;
   padding: $padding-12;
   border-radius: 20px;
+
   input {
     width: 100%;
     border: none;
     padding: $padding-16;
     border-bottom: 1px solid #D9D9D9;
   }
+
   .p-inputgroup-addon {
     background: #fff;
     border: none;
     border-radius: 0;
     border-bottom: 1px solid #D9D9D9;
   }
+
   button {
     width: 100%;
     margin: $margin-20 0;
@@ -1386,6 +1452,7 @@
   background: $color-white2;
   padding: $default-padding;
 }
+
 // keyframs to scroll left
 @keyframes scroll-left {
   0% {

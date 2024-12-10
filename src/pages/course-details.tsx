@@ -40,19 +40,7 @@ const CourseDetails = () => {
                   </div>
                 </div>
               </div>
-              <div className='col-md-4'>
-                <div className='course-teacher-right'>
-                  <div className='course-thumb-img'>
-                    <img src='/assets/images/card-img.png' className='w-100' />
-                  </div>
-                  <div className='course-enroll-info'>
-                    <button className='enroll-btn mt-16'>Enroll Now</button>
-                    <h4 className='Black-text '>INR 999/-</h4>
-                    <p className='offer-text-clr p-0 m-0'>Special offer ends soon</p>
-                    <p className='Black-text'>(limited slots available)</p>
-                  </div>
-                </div>
-              </div>
+              
             </div>
           </div>
         </div>
@@ -87,19 +75,13 @@ const CourseDetails = () => {
                       className='custom-tabs'
                     >
                       <Nav.Item className='custom-tab-item'>
-                        <Nav.Link eventKey='description' className='custom-tab-link'>
-                          Description
-                        </Nav.Link>
+                        <Nav.Link eventKey='description' className='custom-tab-link'>Description</Nav.Link>
                       </Nav.Item>
                       <Nav.Item className='custom-tab-item'>
-                        <Nav.Link eventKey='curriculum' className='custom-tab-link'>
-                          Curriculum
-                        </Nav.Link>
+                        <Nav.Link eventKey='curriculum' className='custom-tab-link'>Curriculum</Nav.Link>
                       </Nav.Item>
                       <Nav.Item className='custom-tab-item'>
-                        <Nav.Link eventKey='instructor' className='custom-tab-link'>
-                          Instructor
-                        </Nav.Link>
+                        <Nav.Link eventKey='instructor' className='custom-tab-link'>Instructor</Nav.Link>
                       </Nav.Item>
                     </Nav>
 
@@ -321,6 +303,20 @@ const CourseDetails = () => {
 
 
 
+              </div>
+
+              <div className='col-md-4'>
+                <div className='course-teacher-right'>
+                  <div className='course-thumb-img'>
+                    <img src='/assets/images/card-img.png' className='w-100' />
+                  </div>
+                  <div className='course-enroll-info'>
+                    <button className='enroll-btn mt-16'>Enroll Now</button>
+                    <h4 className='Black-text '>INR 999/-</h4>
+                    <p className='offer-text-clr p-0 m-0'>Special offer ends soon</p>
+                    <p className='Black-text'>(limited slots available)</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
