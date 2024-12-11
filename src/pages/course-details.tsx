@@ -365,7 +365,7 @@ const CourseDetails = () => {
               <div className='col-md-4'>
                 <div className='course-teacher-right'>
                   <div className='course-thumb-img'>
-                    <img src='/assets/images/card-img.png' className='w-100' />
+                    <img src='/assets/images/t-saipraneeth.png' className='w-100' />
                   </div>
                   <div className='course-enroll-info text-center'>
                     <button className='enroll-btn mt-16' onClick={() => window.open('https://payments.cashfree.com/forms/saipraneethcourse1', '_blank')}>Enroll Now</button>
