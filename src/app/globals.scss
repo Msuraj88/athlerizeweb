@@ -142,7 +142,7 @@ body {
 
 }
 
-.bg-white {
+.bg-whitee {
 
   background: $color-white2 !important;
 
@@ -169,7 +169,8 @@ body {
   // padding: $padding-8;
   border-radius: 50px;
 
-  p {
+  .bg-default {
+    background: $primary-color !important;
     color: $color-black;
     font-size: 16px;
     padding: $padding-12 $padding-24;
@@ -184,7 +185,7 @@ body {
   }
 }
 
-.bg-white {
+.bg-whitee {
 
   background: $color-white2 !important;
 
@@ -194,7 +195,7 @@ body {
   }
 
   &.topbar-container {
-    background: $color-white;
+    // background: $color-white;
     border: none;
     padding: $padding-16 $default-padding;
   }
@@ -763,7 +764,7 @@ body {
     }
   }
 
-  .bg-white.topbar-container {
+  .bg-whitee.topbar-container {
     padding: $padding-16 !important;
   }
 
@@ -1212,6 +1213,8 @@ body {
 }
 
 .course-teacher-right {
+  position: sticky;
+  top: 10px;
   background-color: #fff;
   padding: 16px;
   border-radius: 18px;

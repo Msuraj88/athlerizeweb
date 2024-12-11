@@ -23,12 +23,12 @@ const Courses = () => {
                 </div>
                 <Container style={{width: '80%'}}>
                     <Row>
-                        <Col><CourseCard  bgImg={'t-saipraneeth'} isLaunchSoon={false} /></Col>
-                        <Col><CourseCard   bgImg={'kunal2'}isLaunchSoon={true} /></Col>
-                        <Col><CourseCard   bgImg={'revanth2'}isLaunchSoon={true} /></Col>
-                        <Col><CourseCard   bgImg={'das'}isLaunchSoon={true} /></Col>
-                        <Col><CourseCard   bgImg={'siya'}isLaunchSoon={true} /></Col>
-                        <Col><CourseCard   bgImg={'karthik'}isLaunchSoon={true} /></Col>
+                        <Col><CourseCard bgImg={'t-saipraneeth'} title={"SAI PRANEETH"} desc={'From Grassroots to Glory: Building a Career in Sports'} isLaunchSoon={false} /></Col>
+                        <Col><CourseCard bgImg={'kunal2'} title={"KUNAL SAMANT"} desc={'Mastering the Art of Sports Content Creation'} isLaunchSoon={true} /></Col>
+                        <Col><CourseCard bgImg={'revanth2'} title={"REVANTH TUMMALA"} desc={'Capturing the Game: The Art of Sports Photography'} isLaunchSoon={true} /></Col>
+                        <Col><CourseCard title={"JAGANNADH DAS"} desc={'Beyond the Scoreboard: Sports Writing & Journalism'}  bgImg={'das'}isLaunchSoon={true} /></Col>
+                        <Col><CourseCard title={"SIYAADATH ULLAH"} desc={'Career Smash: Turning Badminton Dreams into Reality'} bgImg={'siya'}isLaunchSoon={true} /></Col>
+                        <Col><CourseCard title={"KARTHIK YANAMANDRA"} desc={'Marketing the Game: Sports, Strategy and Success'} bgImg={'karthik'}isLaunchSoon={true} /></Col>
                         {/* <Col><CourseCard   bgImg={'t-saipraneeth'}isLaunchSoon={true} /></Col>
                         <Col><CourseCard  isLaunchSoon={true} /></Col>
                         <Col><CourseCard isLaunchSoon={true} /></Col> */}

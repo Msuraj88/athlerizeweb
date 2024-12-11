@@ -99,7 +99,7 @@ const Header = () => {
                  `} 
                 /> */}
             <Toolbar start={width < 601 ?  '' : centerContent} center={width < 601 ? centerContent : startContent} end={width < 601 ? endContent2 : endContent} className={`topbar-container 
-                  ${pathname === '/' || pathname === '/waitlist'|| pathname === '/aboutus' || pathname === '/contact' || pathname === '/privacy-policy' || pathname === '/terms' || pathname === '/refund' || pathname === '/checkout'  ? 'bg-white' : 'bg-default'}
+                  ${pathname === '/' || pathname === '/waitlist'|| pathname === '/aboutus' || pathname === '/contact' || pathname === '/privacy-policy' || pathname === '/terms' || pathname === '/refund' || pathname === '/checkout'  ? 'bg-whitee' : 'bg-default'}
                  `}
                 />
         </div>
