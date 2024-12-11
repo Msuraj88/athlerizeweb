@@ -40,7 +40,7 @@ const CourseDetails = () => {
                   </div>
                 </div>
               </div>
-              
+
             </div>
           </div>
         </div>
@@ -207,51 +207,109 @@ const CourseDetails = () => {
                               <Accordion.Body>
 
                                 <div className="row mb-3">
-                                  <div className="col-auto fw-bold">Module 1</div>
-                                  <div className="col">Introduction to Sports</div>
+                                  <div className="fw-bold mb-16">Introduction to Sports </div>
+                                  <div ><li>Overview of sports disciplines: Individual vs. team sports.
+                                  </li>
+                                    <li>
+                                      Popular sports (e.g., badminton, cricket, football, athletics) and their global appeal.
+                                    </li></div>
                                 </div>
                                 <div className="row mb-3">
-                                  <div className="col-auto fw-bold">Module 2</div>
-                                  <div className="col">Choosing the Right Sport</div>
+                                  <div className="fw-bold mb-16">Choosing the Right Sport </div>
+                                  <div ><li>Factors Influencing Sport Selection: Interests, physical traits, and strengths (e.g., height, stamina, flexibility).
+                                  </li>
+                                    <li>
+                                      Exploring Different Sports: Encouraging participants to try various sports to find their true passion.
+                                    </li>
+                                    <li>
+                                      Real-Life Inspiration: Sharing stories of famous athletes who discovered their passion through exploration (e.g., Michael Jordan’s journey).
+                                    </li></div>
                                 </div>
                                 <div className="row mb-3">
-                                  <div className="col-auto fw-bold">Module 3</div>
-                                  <div className="col">Physical Fitness and Mental Toughness</div>
+                                  <div className="fw-bold mb-16">Physical Fitness and Mental Toughness </div>
+                                  <div ><li>Physical Fitness: Basics of staying fit, importance of exercise, diet, and recovery for young athletes..
+                                  </li>
+                                    <li>
+                                      Mental Toughness: Introduction to resilience, focus, and building a positive mindset to handle challenges in sports and life.
+                                    </li>
+                                  </div>
                                 </div>
                                 <div className="row mb-3">
-                                  <div className="col-auto fw-bold">Module 4</div>
-                                  <div className="col">Choosing the Right Sport</div>
+                                  <div className="fw-bold mb-16">Life as a Professional Athlete</div>
+                                  <div ><li>Training Routines & Healthy Habits: A look into a professional athlete’s schedule, including training, rest, and diet.
+                                  </li>
+                                    <li>
+                                      What It Takes to Be Successful: Discussing the key values of passion, discipline, and persistence.
+                                    </li>
+                                  </div>
                                 </div>
                                 <div className="row mb-3">
-                                  <div className="col-auto fw-bold">Module 5</div>
-                                  <div className="col">Physical Fitness and Mental Toughness</div>
+                                  <div className="fw-bold mb-16">Fundamental Skills for Any Sport </div>
+                                  <div ><li>Core Skills: Developing coordination, agility, teamwork, and communication.
+                                  </li>
+                                    <li>
+                                      Practical Tips: How to begin building skills that are applicable across all sports disciplines.
+                                    </li>
+                                  </div>
                                 </div>
 
                               </Accordion.Body>
                             </Accordion.Item>
                             <Accordion.Item eventKey="1">
-                              <Accordion.Header>Day 2: Understanding Sports and Exploring Pathways</Accordion.Header>
+                              <Accordion.Header>Day 2: Pathways to Becoming a Professional Athlete</Accordion.Header>
                               <Accordion.Body>
                                 <div className="row mb-3">
-                                  <div className="col-auto fw-bold">Module 1</div>
-                                  <div className="col">Introduction to Sports</div>
+                                  <div className="fw-bold mb-16">What It Takes to Become a Professional Athlete</div>
+                                  <div>
+                                    <li>
+                                      Core Values: Passion, discipline, and mindset as essential traits for athletes.
+                                    </li>
+                                    <li>
+                                      Managing Setbacks: Learning how athletes overcome injuries, losses, and other challenges.
+                                    </li>
+                                    <li>
+                                      Practical Steps to Start: Steps to take now, like joining clubs, finding coaches, or entering local competitions.
+                                    </li>
+                                  </div>
+
                                 </div>
                                 <div className="row mb-3">
-                                  <div className="col-auto fw-bold">Module 2</div>
-                                  <div className="col">Choosing the Right Sport</div>
+                                  <div className="fw-bold mb-16">Role of Sports in Shaping Character and Academics</div>
+                                  <div>
+                                    <li>
+                                      Building Discipline & Teamwork: How sports instill values that help in academics and future opportunities.
+                                    </li>
+                                    <li>
+                                      Positive Impacts on Academics: Exploring how sports participation improves focus, responsibility, and academic performance.
+                                    </li>
+                                  </div>
+
                                 </div>
                                 <div className="row mb-3">
-                                  <div className="col-auto fw-bold">Module 3</div>
-                                  <div className="col">Physical Fitness and Mental Toughness</div>
+                                  <div className="fw-bold mb-16">Building a Path to Success</div>
+                                  <div>
+                                    <li>
+                                      Mapping Goals: Setting short-term and long-term goals for academic and athletic achievements.
+                                    </li>
+                                    <li>
+                                      Building Resilience: Handling pressure and creating a balanced, healthy lifestyle as a student-athlete.
+                                    </li>
+                                  </div>
+
                                 </div>
                                 <div className="row mb-3">
-                                  <div className="col-auto fw-bold">Module 4</div>
-                                  <div className="col">Choosing the Right Sport</div>
+                                  <div className="fw-bold mb-16">Family Support and Financial Planning</div>
+                                  <div>
+                                    <li>
+                                      Role of Parents: How families can support young athletes in balancing academics and sports.
+                                    </li>
+                                    <li>
+                                      Financial Support in Sports: A brief overview of costs (training, equipment, travel) and ways to access scholarships, sponsorships, and other funding opportunities.
+                                    </li>
+                                  </div>
+
                                 </div>
-                                <div className="row mb-3">
-                                  <div className="col-auto fw-bold">Module 5</div>
-                                  <div className="col">Physical Fitness and Mental Toughness</div>
-                                </div>
+                              
                               </Accordion.Body>
                             </Accordion.Item>
                           </Accordion>
@@ -310,9 +368,9 @@ const CourseDetails = () => {
                   <div className='course-thumb-img'>
                     <img src='/assets/images/card-img.png' className='w-100' />
                   </div>
-                  <div className='course-enroll-info'>
+                  <div className='course-enroll-info text-center'>
                     <button className='enroll-btn mt-16'>Enroll Now</button>
-                    <h4 className='Black-text '>INR 999/-</h4>
+                    <h4 className='Black-text mt-24'>INR 999/-</h4>
                     <p className='offer-text-clr p-0 m-0'>Special offer ends soon</p>
                     <p className='Black-text'>(limited slots available)</p>
                   </div>
