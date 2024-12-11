@@ -78,7 +78,7 @@ export default function Home() {
                     <Card.Text className="desc">
                       Gain an early advantage in your sports journey with athleriZe. Learn from world-class experts, master essential techniques & watch your skills soar.
                     </Card.Text>
-                    <Card.Link href="#" className="link">get started
+                    <Card.Link href="#" className="link">start early
                       <span style={{ marginLeft: '50px' }}>
                         <svg
                           width="7"
@@ -108,7 +108,7 @@ export default function Home() {
                     <Card.Text className="desc">
                       Open the gateway to a thriving career in the sports industry. Learn from the best, master your craft, & shape your destiny.
                     </Card.Text>
-                    <Card.Link href="#" className="link">get started
+                    <Card.Link href="#" className="link">skill up
                       <span style={{ marginLeft: '50px' }}>
                         <svg
                           width="7"
@@ -168,7 +168,7 @@ export default function Home() {
                     <Card.Text className="desc">
                       Master advanced techniques & unlock peak performance with sessions, guidance & insights from world-class athletes, renowned coaches, & expert instructors.
                     </Card.Text>
-                    <Card.Link href="#" className="link">get started
+                    <Card.Link href="#" className="link">step up
                       <span style={{ marginLeft: '50px' }}>
                         <svg
                           width="7"
@@ -200,7 +200,7 @@ export default function Home() {
                 <img src='/assets/images/sai-career.png' className='career-img' />
               </Col>
               <Col className='align-content-end'>
-                <div className='d-flex career-options'>
+                <div className='d-flex flex-wrap justify-content-center career-options'>
                   <div className='blocks'>
                     <Row>
                       <Col lg="3"><img src='/assets/images/career.svg' /></Col>
@@ -219,7 +219,7 @@ export default function Home() {
                     </Row>
                   </div>
                 </div>
-                <div className='d-flex career-options'>
+                <div className='d-flex flex-wrap justify-content-center career-options'>
                   <div className='blocks'>
                     <Row>
                       <Col lg="3"><img src='/assets/images/career.svg' /></Col>
@@ -237,7 +237,7 @@ export default function Home() {
                     </Row>
                   </div>
                 </div>
-                <div className='d-flex career-options'>
+                <div className='d-flex flex-wrap justify-content-center career-options'>
                   <div className='blocks'>
                     <Row>
                       <Col lg="3"><img src='/assets/images/career.svg' /></Col>

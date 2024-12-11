@@ -98,7 +98,7 @@ const Contact = () => {
             </Card.Footer>
           </Card>
           </div>
-          <div className='align-items-center bg-body contact-details d-flex flex-wrap justify-content-around m-5 p-5 rounded-3'>
+          <div className='align-items-center bg-body contact-details d-flex flex-wrap justify-content-around mx-3 my-5 p-5 rounded-3'>
             <div>
               <h5>our <span style={{ color: "#0089D1" }}>headquarters:</span></h5>
               <p>

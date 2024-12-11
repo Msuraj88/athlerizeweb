@@ -102,9 +102,9 @@ body {
   &.topbar-container {
     background: $primary-color;
     border: none;
+    margin-top: -1px;
   }
 }
-
 .course-btn {
   border-radius: 50px;
 }
@@ -731,6 +731,61 @@ body {
     flex-direction: column;
   }
 
+  .header-main {
+    padding: $padding-24 $padding-16 !important;
+    h1 {
+      font-size: 50px !important;
+    }
+  }
+  .header-main-white {
+    padding: $padding-24 $padding-16 !important;
+    h1 {
+      font-size: 50px !important;
+    }
+  }
+
+  .all-star-squad {
+    text-align: start !important;
+    padding: 0 $padding-24;
+  }
+
+  .abt-img {
+    margin: $margin-20 !important;
+  }
+  .message-section {
+    margin-top: $margin-20 !important;
+  }
+  .career-img {
+    display: none;
+  }
+  .main-home-container .courses-section .header {
+    padding: 20px !important;
+    button {
+      border-radius: 10px !important;
+    }
+  }
+  .card-section .container {
+    width: 78% !important;
+  }
+  .main-home-container .message-section .text-cont p.small {
+    line-height: 1.2;
+  }
+  .faq-section {
+    .row {
+      flex-direction: column;
+      gap: $padding-16
+    }
+  }
+
+  .course-teacher-right {
+    margin-top: 0 !important;
+  }
+  .custom-tab-item {
+    margin-right: 0 !important;
+    .nav-link  {
+      font-size: 12px !important;
+    }
+  }
   .main-home-container .message-section {
     flex-direction: column;
     height: auto;
@@ -800,6 +855,11 @@ body {
   .footer-imgs {
     flex-direction: column;
     gap: 10px;
+  }
+
+  .home-container h1 {
+    font-size: 70px;
+    line-height: 60px;
   }
 
   .main-home-container .courses-section .career-section {

@@ -133,7 +133,7 @@ We may provide paid products and/or services within the Service. In that case, w
 We will not store or collect your payment card details. That information is provided directly to our third-party payment processors whose use of your personal information is governed by their Privacy Policy. These payment processors adhere to the standards set by PCI-DSS as managed by the PCI Security Standards Council, which is a joint effort of brands like Visa, Mastercard, American Express and Discover. PCI-DSS requirements help ensure the secure handling of payment information.<br />
 The payment processors we work with are:</p>
 
-<p>[Payment Gateway Name]</p>
+<p ><a href='https://www.cashfree.com/' target='blank'>Cashfree Payments</a></p>
 
 <p>Links To Other Sites<br />
 Our Service may contain links to other sites that are not operated by us. If you click on a third party link, you will be directed to that third party&rsquo;s site. We strongly advise you to review the Privacy Policy of every site you visit.<br />

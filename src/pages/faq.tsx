@@ -12,7 +12,7 @@ const FAQ = () => {
           <h1>faq</h1>
           <p>Answers to Frequently Asked Questions</p>
         </div>
-        <Container className="my-5">
+        <Container className="my-5 faq-section">
           <Row className="py-5">
             <Col>
               <h3>

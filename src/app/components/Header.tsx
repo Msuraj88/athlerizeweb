@@ -28,6 +28,10 @@ const Header = () => {
                 {
                     label: 'Contact',
                     command: () => router.push('/contact')
+                },
+                {
+                    label: 'View Courses',
+                    command: () => router.push('/courses')
                 }
     ];
     
@@ -77,7 +81,7 @@ const Header = () => {
     const endContent = (
         <React.Fragment>
             <div className="flex align-items-center gap-2">
-            <Button label="View Courses" rounded className='joinlist-btn' />
+            <Button label="View Courses" onClick={() => router.push('courses')} rounded className='joinlist-btn' />
             </div>
         </React.Fragment>
     );
@@ -93,7 +97,7 @@ const Header = () => {
     console.log('ascasca', width)
     return (
         <div className="">
-            <img src='/assets/images/adv.png' width={'100%'} />
+            <img src='/assets/images/adv.png' width={'100%'} style={{verticalAlign: 'top'}} onClick={() => router.push('/courses')} />
             {/* <Toolbar start={centerContent} center={startContent} end={endContent} className={`topbar-container 
                   ${pathname === '/' || pathname === '/waitlist'|| pathname === '/aboutus' || pathname === '/contact' || pathname === '/privacy-policy' || pathname === '/terms' || pathname === '/refund' || pathname === '/checkout'  ? 'bg-white' : 'bg-default'}
                  `} 

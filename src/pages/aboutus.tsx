@@ -21,17 +21,17 @@ const Aboutus = () => {
             You may have a fair idea of what we do. Here’s why we do what we do, our mission, and the people who make everything happen.
           </p>
         </div>
-        <div className="text-center m-5">
+        <div className="text-center m-5 abt-img">
           <img src="/assets/images/abt-img.png" alt="" width={'100%'} />
         </div>
         <Container className="abt-section p-5">
           <Row>
-            <Col xs={3} md={3} lg={3}>
+            <Col xs={12} md={3} lg={3}>
               <h2>
                 about <span style={{ color: "#0089D1" }}>us</span>
               </h2>
             </Col>
-            <Col xs={8} md={8} lg={8}>
+            <Col xs={12} md={8} lg={8}>
               <p>
                 We are an e-learning platform dedicated to all things sports. We are passionate about empowering athletes at all levels, from school & college students to budding stars & seasoned professionals, through world-class courses, expert mentorship, strategic guidance, and tools to elevate their game.
               </p>
@@ -53,20 +53,20 @@ const Aboutus = () => {
               padding: "20px",
             }}
           >
-            <Col xs={3} md={3} lg={3}><h4>
+            <Col xs={12} md={3} lg={3}><h4>
               our <span style={{ color: "#0089D1" }}>mission</span>
             </h4></Col>
-            <Col xs={8} md={8} lg={8}>
+            <Col xs={12} md={8} lg={8}>
               <p>
                 To make high-quality sports education accessible, affordable,
                 and inspiring for everyone, everywhere.
               </p>
 
             </Col>
-            <Col xs={3} md={3} lg={3}><h4>
+            <Col xs={12} md={3} lg={3}><h4>
               our <span style={{ color: "#0089D1" }}>vission</span>
             </h4></Col>
-            <Col xs={8} md={8} lg={8}>
+            <Col xs={12} md={8} lg={8}>
 
               <p>
                 To become the go-to e-learning platform for everything sports.
@@ -225,7 +225,7 @@ const Aboutus = () => {
           </Row>
         </Container>
         <div>
-          <div className="text-center">
+          <div className="text-center all-star-squad">
             <h2>our all-star <span style={{ color: "#0089D1" }}>squad</span></h2>
             <p>Meet the team that makes athleriZe happen</p>
           </div>

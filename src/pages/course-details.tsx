@@ -91,7 +91,7 @@ const CourseDetails = () => {
                             <h3 className='title'>About <span>Course</span></h3>
                             <p>From Grassroots to Glory: Building a Career in Sports is a dynamic and interactive workshop led by Sai Praneeth, designed for students, young athletes, and parents who want to explore sports as a career path. </p>
                             <p>This workshop provides deep insights into the steps required to build a successful sports career—from the basics of training to the critical importance of mental toughness, discipline, and balancing academics. Participants will receive personalized feedback and direct advice from Sai Praneeth, gaining valuable tools to enhance their growth as athletes or sports professionals.</p>
-                            <div className='row'>
+                            <div className='row g-3'>
                               <div className='col'>
                                 <div className='abt-cards'>
                                   <h5>Language</h5>
