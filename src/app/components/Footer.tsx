@@ -28,7 +28,7 @@ const Footer = () => {
                     </ul>
                 </Col>
                 <Col>
-                    <div className='px-5'>
+                    <div className=''>
                         <p style={{color:'#fff'}}><span style={{ color: "#0089D1" }}>recognized</span> by</p>
                         <div className='d-flex footer-imgs'>
                         <img src='/assets/images/dpiit.png' alt='' />

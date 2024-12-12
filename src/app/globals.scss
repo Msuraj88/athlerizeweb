@@ -29,7 +29,7 @@
 body {
   font-family: "Inter", Arial, Helvetica, sans-serif;
 
-  p{
+  p {
     font-weight: 200;
   }
 }
@@ -105,6 +105,7 @@ body {
     margin-top: -1px;
   }
 }
+
 .course-btn {
   border-radius: 50px;
 }
@@ -726,231 +727,6 @@ body {
   margin: 55px 110px;
 }
 
-@media screen and (max-width: 600px) {
-  .team-container .team-block .profiles {
-    flex-direction: column;
-  }
-
-  .header-main {
-    padding: $padding-24 $padding-16 !important;
-    h1 {
-      font-size: 50px !important;
-    }
-  }
-  .header-main-white {
-    padding: $padding-24 $padding-16 !important;
-    h1 {
-      font-size: 50px !important;
-    }
-  }
-
-  .all-star-squad {
-    text-align: start !important;
-    padding: 0 $padding-24;
-  }
-
-  .abt-img {
-    margin: $margin-20 !important;
-  }
-  .message-section {
-    margin-top: $margin-20 !important;
-  }
-  .career-img {
-    display: none;
-  }
-  .main-home-container .courses-section .header {
-    padding: 20px !important;
-    button {
-      border-radius: 10px !important;
-    }
-  }
-  .card-section .container {
-    width: 78% !important;
-  }
-  .main-home-container .message-section .text-cont p.small {
-    line-height: 1.2;
-  }
-  .faq-section {
-    .row {
-      flex-direction: column;
-      gap: $padding-16
-    }
-  }
-
-  .course-teacher-right {
-    margin-top: 0 !important;
-  }
-  .custom-tab-item {
-    margin-right: 0 !important;
-    .nav-link  {
-      font-size: 12px !important;
-    }
-  }
-  .main-home-container .message-section {
-    flex-direction: column;
-    height: auto;
-  }
-
-  .page-cards {
-    gap: 20px
-  }
-
-  .abt-us-margin {
-    margin: 0;
-  }
-
-  .contact-container .cards-section {
-    width: 90% !important;
-
-    .card {
-      width: 100% !important;
-    }
-  }
-
-  .p-menu-list {
-    padding: 0;
-
-    li {
-      text-align: center;
-
-      a {
-        text-decoration: none;
-      }
-    }
-  }
-
-  .bg-whitee.topbar-container {
-    padding: $padding-16 !important;
-  }
-
-  .pp-page {
-    padding: $padding-16 !important;
-
-    .inside-section {
-      margin: $margin-12 !important;
-      width: 95% !important;
-    }
-  }
-
-  .contact-container {
-    .vr-line {
-      height: 1px !important;
-      width: 80% !important;
-      margin: $margin-12 0;
-    }
-  }
-
-  .courses-page .header-section {
-    margin: $margin-12 !important;
-  }
-
-  .partners-section .partners-card {
-    flex-direction: column;
-  }
-
-  .img-cont {
-    display: none;
-  }
-
-  .footer-imgs {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .home-container h1 {
-    font-size: 70px;
-    line-height: 60px;
-  }
-
-  .main-home-container .courses-section .career-section {
-    .col {
-      p {
-        padding: $padding-12;
-      }
-
-      h1 {
-        padding: $padding-12;
-      }
-    }
-
-    height: auto;
-    padding: 0 !important;
-
-    .career-img {
-      position: static;
-      width: 100%;
-    }
-
-    .align-content-end {
-      align-content: start !important;
-    }
-  }
-
-  .waitlist {
-    margin: 0 !important;
-  }
-
-  .team-container .banner {
-    height: auto;
-    margin: 30px 0;
-
-    p {
-      padding: 10px;
-      font-size: 32px;
-      line-height: 40px;
-    }
-  }
-
-  .team-container .team-block .p-tabview .p-tabview-nav .p-tabview-nav-link {
-    padding: 10px !important;
-    font-size: 12px !important;
-  }
-
-  .team-container .company-banner {
-    height: auto;
-    margin-top: 30px;
-    padding: 10px;
-
-    p {
-      font-size: 32px;
-      line-height: 40px;
-    }
-  }
-
-  .team-container .about-company .first-block {
-    flex-direction: column-reverse;
-
-    p {
-      width: 100%;
-    }
-
-    img {
-      width: 50%;
-      margin: auto;
-    }
-  }
-
-  .team-container .about-company .chips-container {
-    flex-direction: column;
-  }
-
-  .team-container .about-company .cards-details {
-    flex-direction: column;
-  }
-
-  .team-container .about-company .chips-container .chips-block {
-    justify-content: center;
-
-    .p-chip {
-      padding: 0 10px;
-    }
-  }
-
-  .footer-container {
-    flex-direction: column;
-  }
-}
-
 
 .partners-section {
   background: $color-white2;
@@ -1525,5 +1301,288 @@ body {
 
   100% {
     transform: translateX(-100%);
+  }
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+  .home-container {
+    padding: 90px 24px;
+  }
+
+  .text-cont {
+    padding: 0px !important;
+  }
+
+  .text-cont h5 {
+    margin: 0px !important;
+  }
+
+  .courses-section .career-section {
+    margin: 18px !important;
+    padding: 24px !important;
+  }
+
+  .courses-section .header {
+    display: block !important;
+  }
+
+  .team-container .team-block .profiles {
+    flex-direction: column;
+  }
+
+  .message-section {
+    padding: 24px !important;
+  }
+
+  .header-main {
+    padding: $padding-24 $padding-16 !important;
+
+    h1 {
+      font-size: 50px !important;
+    }
+  }
+
+  .header-main-white {
+    padding: $padding-24 $padding-16 !important;
+
+    h1 {
+      font-size: 50px !important;
+    }
+  }
+
+  .all-star-squad {
+    text-align: start !important;
+    padding: 0 $padding-24;
+  }
+
+  .abt-img {
+    margin: $margin-20 !important;
+  }
+
+  .message-section {
+    margin-top: $margin-20 !important;
+  }
+
+  .career-img {
+    display: none;
+  }
+
+  .main-home-container .courses-section .header {
+    padding: 20px !important;
+
+    button {
+      border-radius: 10px !important;
+    }
+  }
+
+  .card-section .container {
+    width: 78% !important;
+  }
+
+  .main-home-container .message-section .text-cont p.small {
+    line-height: 1.2;
+  }
+
+  .faq-section {
+    .row {
+      flex-direction: column;
+      gap: $padding-16
+    }
+  }
+
+  .course-teacher-right {
+    margin-top: 0 !important;
+  }
+
+  .custom-tab-item {
+    margin-right: 0 !important;
+
+    .nav-link {
+      font-size: 12px !important;
+    }
+  }
+
+  .main-home-container .message-section {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .page-cards {
+    gap: 20px
+  }
+
+  .abt-us-margin {
+    margin: 0;
+  }
+
+  .contact-container .cards-section {
+    width: 90% !important;
+
+    .card {
+      width: 100% !important;
+    }
+  }
+
+  .p-menu-list {
+    padding: 0;
+
+    li {
+      text-align: center;
+
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+
+  .bg-whitee.topbar-container {
+    padding: $padding-16 !important;
+  }
+
+  .pp-page {
+    padding: $padding-16 !important;
+
+    .inside-section {
+      margin: $margin-12 !important;
+      width: 95% !important;
+    }
+  }
+
+  .contact-container {
+    .vr-line {
+      height: 1px !important;
+      width: 80% !important;
+      margin: $margin-12 0;
+    }
+  }
+
+  .courses-page .header-section {
+    margin: $margin-12 !important;
+  }
+
+  .partners-section .partners-card {
+    flex-direction: column;
+  }
+
+  .img-cont {
+    display: none;
+  }
+
+  .footer-imgs {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .home-container h1 {
+    font-size: 70px;
+    line-height: 60px;
+  }
+
+  .main-home-container .courses-section .career-section {
+    // .col {
+    //   p {
+    //     padding: $padding-12;
+    //   }
+
+    //   h1 {
+    //     padding: $padding-12;
+    //   }
+    // }
+    // .career-options .blocks{
+    //   width: 100%;
+    // }
+
+    height: auto;
+
+    .career-img {
+      position: static;
+      width: 100%;
+    }
+
+    .align-content-end {
+      align-content: start !important;
+    }
+  }
+
+  .partners-section {
+    padding: 24px !important;
+
+    .header {
+      padding: 0px !important;
+    }
+  }
+
+  .waitlist {
+    margin: 0 !important;
+  }
+
+  .team-container .banner {
+    height: auto;
+    margin: 30px 0;
+
+    p {
+      padding: 10px;
+      font-size: 32px;
+      line-height: 40px;
+    }
+  }
+
+  .team-container .team-block .p-tabview .p-tabview-nav .p-tabview-nav-link {
+    padding: 10px !important;
+    font-size: 12px !important;
+  }
+
+  .team-container .company-banner {
+    height: auto;
+    margin-top: 30px;
+    padding: 10px;
+
+    p {
+      font-size: 32px;
+      line-height: 40px;
+    }
+  }
+
+  .team-container .about-company .first-block {
+    flex-direction: column-reverse;
+
+    p {
+      width: 100%;
+    }
+
+    img {
+      width: 50%;
+      margin: auto;
+    }
+  }
+
+  .team-container .about-company .chips-container {
+    flex-direction: column;
+  }
+
+  .team-container .about-company .cards-details {
+    flex-direction: column;
+  }
+
+  .team-container .about-company .chips-container .chips-block {
+    justify-content: center;
+
+    .p-chip {
+      padding: 0 10px;
+    }
+  }
+
+  .footer-container {
+    flex-direction: column;
+  }
+
+  .main-footer-container ul{
+    float: none;
+    border-right: none;
+    padding-left: 0px;
+    margin: 18px 0px;
   }
 }
