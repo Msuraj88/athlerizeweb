@@ -43,15 +43,14 @@ const Footer = () => {
             <Row>
                 <Col className='footer-section'>
                     <p>2024 WhatsInTheGame Sports & Media Pvt. Ltd.</p>
-                    <div className='d-flex gap-2 cursor-pointer'>
+                  
+                </Col>
+                <Col className='text-end'>
+                <div className='d-flex gap-2 cursor-pointer footer-section float-r'>
                         <span onClick={() => router.push('/privacy-policy')}>Privacy Policy </span> <span>|</span>
                         <span onClick={() => router.push('/terms')}>  Terms & Conditions </span> <span>|</span>
                         <span onClick={() => router.push('/refund')}>Cancellation and Refund Policy</span>
                     </div>
-                </Col>
-                <Col className='text-end'>
-                    <span style={{fontSize: '10px'}}>Payments secured by:</span>
-                    <img src='/assets/images/payments.svg' alt='' width={'100%'} />
                 </Col>
             </Row>
         </Container>

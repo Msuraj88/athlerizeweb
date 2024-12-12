@@ -38,6 +38,10 @@ body {
   font-weight: 200;
 }
 
+.float-r {
+  float: right;
+}
+
 .f400 {
   font-weight: 400;
 }
@@ -394,7 +398,7 @@ body {
   position: relative;
   text-align: center;
   height: 446px;
-  width: 310px;
+  width: 100%;
   margin: $margin-20 0;
   background:
     linear-gradient(to top, black 10%, transparent 70%),
@@ -746,19 +750,27 @@ body {
   }
 
   .partner-imgs {
-    display: flex;
-    gap: 30px;
+    // display: flex;
+    // gap: 30px;
     // white-space: nowrap;
     // overflow: hidden;
-    justify-content: end;
-    animation: scroll-left 35s linear infinite;
+    // justify-content: end;
+    // animation: scroll-left 35s linear infinite;
+
 
     div {
-      width: 198px;
+      // width: 198px;
       background: $color-white;
       border-radius: 15px;
       align-content: center;
       text-align: center;
+      padding: 16px 0px;
+
+      img {
+
+        max-height: 92px;
+        width: auto;
+      }
     }
   }
 }
@@ -910,6 +922,7 @@ body {
 
   .custom-tabs {
     border-bottom: 2px solid #e0e0e0;
+    width: max-content;
   }
 
   .custom-tab-item {
@@ -1304,9 +1317,25 @@ body {
   }
 }
 
+.tab-sec-list {
+  width: 100%;
+  overflow: hidden;
+  overflow: scroll;
+}
 
+.course-card-sec {
+  width: 70% !important;
+}
 
 @media screen and (max-width: 600px) {
+
+  .hide-mobile{
+    display: none;
+  }
+
+  .course-card-sec {
+    width: 100% !important;
+  }
 
   .home-container {
     padding: 90px 24px;
@@ -1316,8 +1345,26 @@ body {
     padding: 0px !important;
   }
 
-  .text-cont h5 {
-    margin: 0px !important;
+  .Course-title {
+    h2 {
+      font-size: 36px !important;
+    }
+  }
+
+  .teacher-info-sec {
+    display: block !important;
+
+    .teacher-info {
+      margin-top: 18px;
+
+      p {
+        font-size: 16px;
+      }
+    }
+  }
+
+  .bg-default.topbar-container {
+    margin-top: -7px;
   }
 
   .courses-section .career-section {
@@ -1366,9 +1413,9 @@ body {
     margin-top: $margin-20 !important;
   }
 
-  .career-img {
-    display: none;
-  }
+  // .career-img {
+  //   display: none;
+  // }
 
   .main-home-container .courses-section .header {
     padding: 20px !important;
@@ -1379,7 +1426,7 @@ body {
   }
 
   .card-section .container {
-    width: 78% !important;
+    width: 100% !important;
   }
 
   .main-home-container .message-section .text-cont p.small {
@@ -1579,10 +1626,14 @@ body {
     flex-direction: column;
   }
 
-  .main-footer-container ul{
+  .main-footer-container ul {
     float: none;
     border-right: none;
     padding-left: 0px;
     margin: 18px 0px;
   }
+}
+
+.text-strike {
+  text-decoration: line-through;
 }

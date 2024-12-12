@@ -47,7 +47,7 @@ export default function Home() {
             </div>
           </div>
           <div className='card-section'>
-          <Container style={{ width: '70%' }}>
+            <Container className='course-card-sec' >
               <Row>
                 <Col><CourseCard bgImg={'t-saipraneeth'} title={"SAI PRANEETH"} desc={'From Grassroots to Glory: Building a Career in Sports'} isLaunchSoon={false} /></Col>
                 <Col><CourseCard bgImg={'kunal2'} title={"KUNAL SAMANT"} desc={'Mastering the Art of Sports Content Creation'} isLaunchSoon={true} /></Col>
@@ -197,7 +197,7 @@ export default function Home() {
                 <p>the athleriZe advantage</p>
                 <h1>building careers beyond <br />the game</h1>
                 <p>with focused courses, expert guidance, <br></br> and mentoring.  </p>
-                <img src='/assets/images/sai-career.png' className='career-img' />
+                <img src='/assets/images/sai-career.png' className='career-img hide-mobile' />
               </div>
               <div className='col-md-6'>
                 <div className='row career-options'>
@@ -268,24 +268,27 @@ export default function Home() {
             </div>
           </div>
           <div className='partner-imgs'>
-            <div>
-              <img src='/assets/images/oa.png' alt='' />
+            <div className='row'>
+              <div className='col-md-2'>
+                <img src='/assets/images/oa.png' alt='' />
+              </div>
+              <div className='col-md-2'>
+                <img src='/assets/images/hh.png' alt='' />
+              </div>
+              <div className='col-md-2'>
+                <img src='/assets/images/hbh.png' alt='' />
+              </div>
+              <div className='col-md-2'>
+                <img src='/assets/images/blitz.png' alt='' />
+              </div>
+              <div className='col-md-2'>
+                <img src='/assets/images/bf.png' alt='' />
+              </div>
+              <div className='col-md-2'>
+                <img src='/assets/images/inde.png' alt='' />
+              </div>
             </div>
-            <div>
-              <img src='/assets/images/hh.png' alt='' />
-            </div>
-            <div>
-              <img src='/assets/images/hbh.png' alt='' />
-            </div>
-            <div>
-              <img src='/assets/images/blitz.png' alt='' />
-            </div>
-            <div>
-              <img src='/assets/images/bf.png' alt='' />
-            </div>
-            <div>
-              <img src='/assets/images/inde.png' alt='' />
-            </div>
+
           </div>
         </div>
       </div>

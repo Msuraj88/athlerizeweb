@@ -21,7 +21,7 @@ const Courses = () => {
                 <h1>our <span>courses</span></h1>
                 <p>Browse our active and upcoming courses</p>
                 </div>
-                <Container style={{width: '70%'}}>
+                <Container className='course-card-sec'>
                     <Row>
                         <div className='col-md-4'><CourseCard bgImg={'t-saipraneeth'} title={"SAI PRANEETH"} desc={'From Grassroots to Glory: Building a Career in Sports'} isLaunchSoon={false} /></div>
                         <div className='col-md-4'><CourseCard bgImg={'kunal2'} title={"KUNAL SAMANT"} desc={'Mastering the Art of Sports Content Creation'} isLaunchSoon={true} /></div>
