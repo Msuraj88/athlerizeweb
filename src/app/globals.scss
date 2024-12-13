@@ -1329,9 +1329,10 @@ body {
 
 @media screen and (max-width: 600px) {
 
-  .hide-mobile{
+  .hide-mobile {
     display: none;
   }
+
 
   .course-card-sec {
     width: 100% !important;
@@ -1519,8 +1520,10 @@ body {
   }
 
   .footer-imgs {
-    flex-direction: column;
-    gap: 10px;
+    img {
+      height: 42px;
+      width: auto;
+    }
   }
 
   .home-container h1 {

@@ -251,14 +251,14 @@ const Aboutus = () => {
                 <Col xs={12} md={6} lg={3}>
                   <AbtCards img={'t-kamala'} name={'Kamala Grace'} desc={'Captain, Marketing'} email={''} />
                 </Col>
-                <Col xs={12} md={6} lg={3}>
-                  <AbtCards img={'t-seevatsa'} name={'Sreevatsa C'} desc={'Production Star'} email={''} />
-                </Col>
                 <Col>
                   <AbtCards img={'t-raidu'} name={'Tarun Raidu'} desc={'Captain, Growth'} email={''} />
                 </Col>
                 <Col xs={12} md={6} lg={3}>
                   <AbtCards img={'t-ritika'} name={'Ritika'} desc={'Social Media Star'} email={''} />
+                </Col>
+                <Col xs={12} md={6} lg={3}>
+                  <AbtCards img={'t-seevatsa'} name={'Sreevatsa C'} desc={'Production Star'} email={''} />
                 </Col>
                 <Col xs={12} md={6} lg={3}>
                   <AbtCards img={'t-sharanya'} name={'Sharanya'} desc={'All Rounder'} email={''} />

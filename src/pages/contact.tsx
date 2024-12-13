@@ -122,25 +122,28 @@ const Contact = () => {
         </div>
         </div>
         <div className='partner-imgs'>
-          <div>
-            <img src='/assets/images/oa.png' alt='' />
+            <div className='row'>
+              <div className='col-md-2'>
+                <img src='/assets/images/oa.png' alt='' />
+              </div>
+              <div className='col-md-2'>
+                <img src='/assets/images/hh.png' alt='' />
+              </div>
+              <div className='col-md-2'>
+                <img src='/assets/images/hbh.png' alt='' />
+              </div>
+              <div className='col-md-2'>
+                <img src='/assets/images/blitz.png' alt='' />
+              </div>
+              <div className='col-md-2'>
+                <img src='/assets/images/bf.png' alt='' />
+              </div>
+              <div className='col-md-2'>
+                <img src='/assets/images/inde.png' alt='' />
+              </div>
+            </div>
+
           </div>
-          <div>
-            <img src='/assets/images/hh.png' alt='' />
-          </div>
-          <div>
-            <img src='/assets/images/hbh.png' alt='' />
-          </div>
-          <div>
-            <img src='/assets/images/blitz.png' alt='' />
-          </div>
-          <div>
-            <img src='/assets/images/bf.png' alt='' />
-          </div>
-          <div>
-            <img src='/assets/images/inde.png' alt='' />
-          </div>
-        </div>
         </div>
         </div>
         <Footer />

@@ -187,7 +187,7 @@ const CourseDetails = () => {
                           <div className='certification-section'>
                             <div className='row'>
                               <div className='col-md-8'>
-                                <h3 className='title'>key <span> highlights</span></h3>
+                                <h3 className='title'>earn <span> certificate</span></h3>
                                 <p>Upon successfully completing the course, participants will receive a digital Certificate of Excellence to your registered email id, signed by the course instructor, athleriZe and Olympian Sai Praneeth.</p>
                               </div>
                               <div className='col-md-4'>
