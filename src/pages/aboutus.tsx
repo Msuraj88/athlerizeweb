@@ -112,7 +112,7 @@ const Aboutus = () => {
                     Gain an early advantage in your sports journey with athleriZe. Learn from world-class experts, master essential techniques & watch your skills soar.
                   </Card.Text>
                   <Card.Link href="#" className="link">get started
-                    <span style={{ marginLeft: '50px' }}>
+                    <span style={{ marginLeft: '12px' }}>
                       <svg
                         width="7"
                         height="11"
@@ -142,7 +142,7 @@ const Aboutus = () => {
                     Open the gateway to a thriving career in the sports industry. Learn from the best, master your craft, & shape your destiny.
                   </Card.Text>
                   <Card.Link href="#" className="link">get started
-                    <span style={{ marginLeft: '50px' }}>
+                    <span style={{ marginLeft: '12px' }}>
                       <svg
                         width="7"
                         height="11"
@@ -172,7 +172,7 @@ const Aboutus = () => {
                     Gain expert advice & insights to improve physical & mental wellbeing, game, learn skills like focus, resilience & discipline or simply elevate your fan experience.
                   </Card.Text>
                   <Card.Link href="#" className="link">get started
-                    <span style={{ marginLeft: '50px' }}>
+                    <span style={{ marginLeft: '12px' }}>
                       <svg
                         width="7"
                         height="11"
@@ -202,7 +202,7 @@ const Aboutus = () => {
                     Master advanced techniques & unlock peak performance with sessions, guidance & insights from world-class athletes, renowned coaches, & expert instructors.
                   </Card.Text>
                   <Card.Link href="#" className="link">get started
-                    <span style={{ marginLeft: '50px' }}>
+                    <span style={{ marginLeft: '12px' }}>
                       <svg
                         width="7"
                         height="11"
@@ -234,7 +234,7 @@ const Aboutus = () => {
             <Container>
               <Row>
                 <Col xs={12} md={6} lg={3}>
-                  <AbtCards img={'Anil'} name={'Anil Kumar M'} desc={'Founder, Captain'} email={''} />
+                  <AbtCards img={'t-anil1'} name={'Anil Kumar M'} desc={'Founder, Captain'} email={''} />
                 </Col>
                 <Col xs={12} md={6} lg={3}>
                   <AbtCards img={'t-sai'} name={'Sai Praneeth B'} desc={'Founding Partner, Vice Captain'} email={''} />
@@ -249,16 +249,16 @@ const Aboutus = () => {
               <h2 className="m-4">our <span style={{ color: "#0089D1" }}>star squad</span></h2>
               <Row>
                 <Col xs={12} md={6} lg={3}>
-                  <AbtCards img={'t-kamala'} name={'Kamala Grace'} desc={'All Rounder'} email={''} />
-                </Col>
-                <Col xs={12} md={6} lg={3}>
-                  <AbtCards img={'t-seevatsa'} name={'Sreevatsa C'} desc={'All Rounder'} email={''} />
+                  <AbtCards img={'t-kamala'} name={'Kamala Grace'} desc={'Captain, Marketing'} email={''} />
                 </Col>
                 <Col>
-                  <AbtCards img={'t-raidu'} name={'Tarun Raidu'} desc={'All Rounder'} email={''} />
+                  <AbtCards img={'t-raidu'} name={'Tarun Raidu'} desc={'Captain, Growth'} email={''} />
                 </Col>
                 <Col xs={12} md={6} lg={3}>
-                  <AbtCards img={'t-ritika'} name={'Ritika'} desc={'All Rounder'} email={''} />
+                  <AbtCards img={'t-ritika'} name={'Ritika'} desc={'Social Media Star'} email={''} />
+                </Col>
+                <Col xs={12} md={6} lg={3}>
+                  <AbtCards img={'t-seevatsa'} name={'Sreevatsa C'} desc={'Production Star'} email={''} />
                 </Col>
                 <Col xs={12} md={6} lg={3}>
                   <AbtCards img={'t-sharanya'} name={'Sharanya'} desc={'All Rounder'} email={''} />
@@ -299,24 +299,27 @@ const Aboutus = () => {
             </div>
           </div>
           <div className='partner-imgs'>
-            <div>
-              <img src='/assets/images/oa.png' alt='' />
+            <div className='row'>
+              <div className='col-md-2'>
+                <img src='/assets/images/oa.png' alt='' />
+              </div>
+              <div className='col-md-2'>
+                <img src='/assets/images/hh.png' alt='' />
+              </div>
+              <div className='col-md-2'>
+                <img src='/assets/images/hbh.png' alt='' />
+              </div>
+              <div className='col-md-2'>
+                <img src='/assets/images/blitz.png' alt='' />
+              </div>
+              <div className='col-md-2'>
+                <img src='/assets/images/bf.png' alt='' />
+              </div>
+              <div className='col-md-2'>
+                <img src='/assets/images/inde.png' alt='' />
+              </div>
             </div>
-            <div>
-              <img src='/assets/images/hh.png' alt='' />
-            </div>
-            <div>
-              <img src='/assets/images/hbh.png' alt='' />
-            </div>
-            <div>
-              <img src='/assets/images/blitz.png' alt='' />
-            </div>
-            <div>
-              <img src='/assets/images/bf.png' alt='' />
-            </div>
-            <div>
-              <img src='/assets/images/inde.png' alt='' />
-            </div>
+
           </div>
         </div>
       </div>

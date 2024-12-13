@@ -23,8 +23,8 @@ const CourseDetails = () => {
 
                 </div>
                 <div className='Course-title'>
-                  <h1 className='m-0 mt-16  '>From Grassroots to Glory: Building a Career in Sports
-                  </h1>
+                  <h2 className='m-0 mt-16  '>From Grassroots to Glory: Building a Career in Sports
+                  </h2>
                   <p className='text-left'>
                     Find courses that fit your passion, whether active or coming soon!
                   </p>
@@ -67,22 +67,24 @@ const CourseDetails = () => {
 
                 <div className='tab-nav-sec'>
                   <div className='container'>
-                    <Nav
-                      variant='underline'
-                      activeKey={activeTab}
-                      onSelect={(selectedKey) => setActiveTab(selectedKey || 'description')}
-                      className='custom-tabs'
-                    >
-                      <Nav.Item className='custom-tab-item'>
-                        <Nav.Link eventKey='description' className='custom-tab-link'>Description</Nav.Link>
-                      </Nav.Item>
-                      <Nav.Item className='custom-tab-item'>
-                        <Nav.Link eventKey='curriculum' className='custom-tab-link'>Curriculum</Nav.Link>
-                      </Nav.Item>
-                      <Nav.Item className='custom-tab-item'>
-                        <Nav.Link eventKey='instructor' className='custom-tab-link'>Instructor</Nav.Link>
-                      </Nav.Item>
-                    </Nav>
+                    <div className='tab-sec-list'>
+                      <Nav
+                        variant='underline'
+                        activeKey={activeTab}
+                        onSelect={(selectedKey) => setActiveTab(selectedKey || 'description')}
+                        className='custom-tabs'
+                      >
+                        <Nav.Item className='custom-tab-item'>
+                          <Nav.Link eventKey='description' className='custom-tab-link'>Description</Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item className='custom-tab-item'>
+                          <Nav.Link eventKey='curriculum' className='custom-tab-link'>Curriculum</Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item className='custom-tab-item'>
+                          <Nav.Link eventKey='instructor' className='custom-tab-link'>Instructor</Nav.Link>
+                        </Nav.Item>
+                      </Nav>
+                    </div>
 
                     <div className='tab-content'>
                       {activeTab === 'description' &&
@@ -185,7 +187,7 @@ const CourseDetails = () => {
                           <div className='certification-section'>
                             <div className='row'>
                               <div className='col-md-8'>
-                                <h3 className='title'>key <span> highlights</span></h3>
+                                <h3 className='title'>earn <span> certificate</span></h3>
                                 <p>Upon successfully completing the course, participants will receive a digital Certificate of Excellence to your registered email id, signed by the course instructor, athleriZe and Olympian Sai Praneeth.</p>
                               </div>
                               <div className='col-md-4'>
@@ -308,7 +310,7 @@ const CourseDetails = () => {
                                   </div>
 
                                 </div>
-                              
+
                               </Accordion.Body>
                             </Accordion.Item>
                           </Accordion>
@@ -318,7 +320,9 @@ const CourseDetails = () => {
                         <div className='Instructor-tab-sec'>
                           <h4 className='mb-24'>Instructor</h4>
 
-                          <div className='instructor1 mb-24'>
+
+
+                          <div className='instructor2  mb-24'>
                             <div className='teacher-info-sec'>
                               <div className='teacher-img'>
                                 <img src='/assets/images/sai-avatar.png' className='career-img' />
@@ -329,23 +333,10 @@ const CourseDetails = () => {
                               </div>
                             </div>
 
-                            <p>Former world no 10, an Olympian, and a champion sportsperson and one of the greatest and most successful badminton athletes in India. Sai Praneeth's name is etched in record books as the first Indian male shuttler in 36 years to win a bronze medal in the BWF World Championships in 2019, . His stunning wins against the all-time greats -- Muhammad Hafiz Hashim, Taufik Hidayat, Hu Yun, Lee Chong Wei in International circuit, bore testament to his mental strength and his rock-solid technique. Sai Praneeth serves as our Brand Ambassador and a Strategist; works closely with the Founder, together to improve, strengthen and scale the growth of athleriZe.</p>
-                          </div>
+                            <p>Former world no 10 Badminton Player, Arjuna Awardee, an Olympian, a champion sportsperson and one of the greatest and most successful badminton athletes in India.</p>
+                            <p>Sai Praneeth's name is etched in record books as the first Indian male shuttler in 36 years to win a bronze medal in the BWF World Championships in 2019. Sai Praneeth brings years of professional experience to athleriZe. His journey from a young player to a world class player reflects his passion, dedication, and deep understanding of the game. </p>
+                            <p>As an instructor, he’s committed to guiding aspiring athletes by sharing practical skills, game strategies, and valuable insights from his professional career. Sai Praneeth’s goal is to inspire and nurture the next generation of sports enthusiasts with his expertise and love for the sport.</p>
 
-                          <hr className="cust-divider mb-24"></hr>
-
-                          <div className='instructor2'>
-                            <div className='teacher-info-sec'>
-                              <div className='teacher-img'>
-                                <img src='/assets/images/sai-avatar.png' className='career-img' />
-                              </div>
-                              <div className='teacher-info'>
-                                <h5>By Sai Praneeth B </h5>
-                                <p>Olympian, Former World No 10 Badminton Player</p>
-                              </div>
-                            </div>
-
-                            <p>Former world no 10, an Olympian, and a champion sportsperson and one of the greatest and most successful badminton athletes in India. Sai Praneeth's name is etched in record books as the first Indian male shuttler in 36 years to win a bronze medal in the BWF World Championships in 2019, . His stunning wins against the all-time greats -- Muhammad Hafiz Hashim, Taufik Hidayat, Hu Yun, Lee Chong Wei in International circuit, bore testament to his mental strength and his rock-solid technique. Sai Praneeth serves as our Brand Ambassador and a Strategist; works closely with the Founder, together to improve, strengthen and scale the growth of athleriZe.</p>
                           </div>
 
 
@@ -370,8 +361,7 @@ const CourseDetails = () => {
                   <div className='course-enroll-info text-center'>
                     <button className='enroll-btn mt-16' onClick={() => window.open('https://payments.cashfree.com/forms/testsppa', '_blank')}>Enroll Now</button>
                     {/* <button className='enroll-btn mt-16' onClick={() => window.open('https://payments.cashfree.com/forms/saipraneethcourse1', '_blank')}>Enroll Now</button> */}
-                    <h4 className='Black-text mt-24'>INR 999/-</h4>
-                    <p className='offer-text-clr p-0 m-0'>Special offer ends soon</p>
+                    <h4 className='Black-text mt-24'>INR 999 <span className='text-strike'>2499</span></h4>                    <p className='offer-text-clr p-0 m-0'>Special offer ends soon</p>
                     <p className='Black-text'>(limited slots available)</p>
                   </div>
                 </div>
