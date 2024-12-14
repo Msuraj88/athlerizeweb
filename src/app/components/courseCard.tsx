@@ -9,7 +9,7 @@ const CourseCard = ({ isLaunchSoon, bgImg, title, desc }: any) => {
         <span className='launch-text'>Launching Soon</span>
       } */}
       <div className='details' style={{ opacity: isLaunchSoon ? ".3" : "1", }}>
-        <h1 className='f700'>{title}</h1>
+        <h2 className='f700'>{title}</h2>
         <span>{desc}</span>
         <p className='mt-16'>14 Sessions | 2 Days | 2 Hours</p>
       </div>

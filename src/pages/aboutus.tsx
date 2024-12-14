@@ -64,7 +64,7 @@ const Aboutus = () => {
 
             </Col>
             <Col xs={12} md={3} lg={3}><h4>
-              our <span style={{ color: "#0089D1" }}>vission</span>
+              our <span style={{ color: "#0089D1" }}>vision</span>
             </h4></Col>
             <Col xs={12} md={8} lg={8}>
 

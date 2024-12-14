@@ -23,7 +23,10 @@ export default function Home() {
             onClick={() => router.push('/courses')}
             rounded className='joinlist-btn' />
         </div>
-        <div className='message-section'>
+        <div
+          className="message-section"
+          style={{ background: "#0089D1", marginTop: "220px" }}
+        >
           <div className='text-cont mb-16'>
             <h3>Message From Our  <br />Mastermind</h3>
             <p className='mb-24 mt-24'>As a professional athlete, I understand the power of learning and mentorship. Throughout my career, I've had the privilege of learning from some of the greatest minds in the field. I believe this sort of world-class training, expert mentorship, and a supportive community should be accessible and affordable to everyone. And thus, athleriZe was founded.</p>
@@ -203,8 +206,8 @@ export default function Home() {
                 <div className='row career-options'>
                   <div className='col-md-6 blocks'>
                     <Row>
-                      <Col lg="3"><img src='/assets/images/career.svg' /></Col>
-                      <Col lg="6">
+                      {/* <Col lg="3"><img src='/assets/images/career.svg' /></Col> */}
+                      <Col >
                         <p>Expert instructors & top athletes
                         </p>
                       </Col>
@@ -212,8 +215,8 @@ export default function Home() {
                   </div>
                   <div className='col-md-6 blocks'>
                     <Row>
-                      <Col lg="3"><img src='/assets/images/career.svg' /></Col>
-                      <Col lg="6">
+                      {/* <Col lg="3"><img src='/assets/images/career.svg' /></Col> */}
+                      <Col>
                         <p>Personalized learning paths</p>
                       </Col>
                     </Row>
@@ -222,16 +225,16 @@ export default function Home() {
                 <div className='row career-options'>
                   <div className='col-md-6 blocks'>
                     <Row>
-                      <Col lg="3"><img src='/assets/images/career.svg' /></Col>
-                      <Col lg="6">
+                      {/* <Col lg="3"><img src='/assets/images/career.svg' /></Col> */}
+                      <Col>
                         <p>Affordable Pricing</p>
                       </Col>
                     </Row>
                   </div>
                   <div className='col-md-6 blocks'>
                     <Row>
-                      <Col lg="3"><img src='/assets/images/career.svg' /></Col>
-                      <Col lg="6">
+                      {/* <Col lg="3"><img src='/assets/images/career.svg' /></Col> */}
+                      <Col>
                         <p>Career advancement  </p>
                       </Col>
                     </Row>
@@ -240,16 +243,16 @@ export default function Home() {
                 <div className='row career-options'>
                   <div className='col-md-6 blocks'>
                     <Row>
-                      <Col lg="3"><img src='/assets/images/career.svg' /></Col>
-                      <Col lg="6">
+                      {/* <Col lg="3"><img src='/assets/images/career.svg' /></Col> */}
+                      <Col>
                         <p>World-class mentorship</p>
                       </Col>
                     </Row>
                   </div>
                   <div className='col-md-6 blocks'>
                     <Row>
-                      <Col lg="3"><img src='/assets/images/career.svg' /></Col>
-                      <Col lg="6">
+                      {/* <Col lg="3"><img src='/assets/images/career.svg' /></Col> */}
+                      <Col >
                         <p>Diverse topics for diverse users
                         </p>
                       </Col>

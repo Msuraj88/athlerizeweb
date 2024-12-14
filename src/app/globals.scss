@@ -417,7 +417,7 @@ body {
   }
 
   .details {
-    padding: $padding-12 $padding-42;
+    padding: 12px 24px !important;
     position: absolute;
     bottom: 0;
     color: $color-white;
@@ -1327,12 +1327,20 @@ body {
   width: 70% !important;
 }
 
+.contact-botomm-sec{
+  justify-content: center;
+  gap: 88px;
+}
+
 @media screen and (max-width: 600px) {
 
   .hide-mobile {
     display: none;
   }
 
+  .contact-botomm-sec{
+    gap: 48px;
+  }
 
   .course-card-sec {
     width: 100% !important;
