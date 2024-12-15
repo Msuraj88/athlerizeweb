@@ -295,7 +295,7 @@ const Aboutus = () => {
           <div className='header'>
             <div>
               <h1>Our <span>partners</span></h1>
-              <p>Find courses that fit your passion, whether active or coming soon!</p>
+              <p>Collaborating with the best to bring you to the best</p>
             </div>
           </div>
           <div className='partner-imgs'>
