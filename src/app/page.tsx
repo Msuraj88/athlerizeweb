@@ -27,7 +27,7 @@ export default function Home() {
           className="message-section"
           style={{ background: "#0089D1", marginTop: "220px" }}
         >
-          <div className='text-cont mb-16'>
+           <div className='text-cont mb-16'>
             <h3>Message From Our  <br />Mastermind</h3>
             <p className='mb-24 mt-24'>As a professional athlete, I understand the power of learning and mentorship. Throughout my career, I've had the privilege of learning from some of the greatest minds in the field. I believe this sort of world-class training, expert mentorship, and a supportive community should be accessible and affordable to everyone. And thus, athleriZe was founded.</p>
             <h5>Sai Praneeth B</h5>
@@ -54,7 +54,7 @@ export default function Home() {
               <Row>
                 <div className='col-md-4'><CourseCard bgImg={'t-saipraneeth'} title={"SAI PRANEETH"} desc={'From Grassroots to Glory: Building a Career in Sports'} isLaunchSoon={false} /></div>
                 <div className='col-md-4'><CourseCard bgImg={'kunal2'} title={"KUNAL SAMANT"} desc={'Mastering the Art of Sports Content Creation'} isLaunchSoon={true} /></div>
-                <div className='col-md-4'><CourseCard bgImg={'revanth2'} title={"REVANTH TUMMALA"} desc={'Capturing the Game: The Art of Sports Photography'} isLaunchSoon={true} /></div>
+                <div className='col-md-4'><CourseCard bgImg={'revanth2'} title={"REVANTH T"} desc={'Capturing the Game: The Art of Sports Photography'} isLaunchSoon={true} /></div>
               </Row>
             </Container>
           </div>
@@ -81,8 +81,8 @@ export default function Home() {
                     <Card.Text className="desc">
                       Gain an early advantage in your sports journey with athleriZe. Learn from world-class experts, master essential techniques & watch your skills soar.
                     </Card.Text>
-                    <Card.Link href="#" className="link">start early
-                      <span style={{ marginLeft: '50px' }}>
+                    <Card.Link className="link">start early
+                      {/* <span style={{ marginLeft: '50px' }}>
                         <svg
                           width="7"
                           height="11"
@@ -97,7 +97,7 @@ export default function Home() {
                             strokeLinejoin="round"
                           />
                         </svg>
-                      </span>
+                      </span> */}
                     </Card.Link>
                   </Card.Body>
                 </Card>
@@ -111,8 +111,8 @@ export default function Home() {
                     <Card.Text className="desc">
                       Open the gateway to a thriving career in the sports industry. Learn from the best, master your craft, & shape your destiny.
                     </Card.Text>
-                    <Card.Link href="#" className="link">skill up
-                      <span style={{ marginLeft: '50px' }}>
+                    <Card.Link className="link">skill up
+                      {/* <span style={{ marginLeft: '50px' }}>
                         <svg
                           width="7"
                           height="11"
@@ -127,7 +127,7 @@ export default function Home() {
                             strokeLinejoin="round"
                           />
                         </svg>
-                      </span>
+                      </span> */}
                     </Card.Link>
                   </Card.Body>
                 </Card>
@@ -141,8 +141,8 @@ export default function Home() {
                     <Card.Text className="desc">
                       Gain expert advice & insights to improve physical & mental wellbeing, game, learn skills like focus, resilience & discipline or simply elevate your fan experience.
                     </Card.Text>
-                    <Card.Link href="#" className="link">get started
-                      <span style={{ marginLeft: '50px' }}>
+                    <Card.Link className="link">get started
+                      {/* <span style={{ marginLeft: '50px' }}>
                         <svg
                           width="7"
                           height="11"
@@ -157,7 +157,7 @@ export default function Home() {
                             strokeLinejoin="round"
                           />
                         </svg>
-                      </span>
+                      </span> */}
                     </Card.Link>
                   </Card.Body>
                 </Card>
@@ -171,8 +171,8 @@ export default function Home() {
                     <Card.Text className="desc">
                       Master advanced techniques & unlock peak performance with sessions, guidance & insights from world-class athletes, renowned coaches, & expert instructors.
                     </Card.Text>
-                    <Card.Link href="#" className="link">step up
-                      <span style={{ marginLeft: '50px' }}>
+                    <Card.Link className="link">step up
+                      {/* <span style={{ marginLeft: '50px' }}>
                         <svg
                           width="7"
                           height="11"
@@ -187,7 +187,7 @@ export default function Home() {
                             strokeLinejoin="round"
                           />
                         </svg>
-                      </span>
+                      </span> */}
                     </Card.Link>
                   </Card.Body>
                 </Card>

@@ -46,6 +46,9 @@ body {
   font-weight: 400;
 }
 
+.mt-8{
+  margin-top: 8px;
+}
 .m-0 {
   margin: 0px;
 }
@@ -246,48 +249,6 @@ body {
 
 .main-home-container {
   background: $bg-blue;
-
-  .message-section {
-    display: flex;
-    height: 500px;
-    padding: 35px;
-    padding-bottom: 0;
-    align-items: end;
-
-    .text-cont {
-      padding: $padding-20;
-      color: $color-white;
-
-      h3 {
-        color: $color-white;
-        font-size: 48px;
-      }
-
-      p {
-        color: $color-white;
-        font-size: 21px;
-        line-height: 25px;
-        font-weight: 300;
-
-
-        &.small {
-          font-size: 18px;
-          line-height: .4;
-        }
-      }
-
-      h5 {
-        font-size: 20px;
-        margin: $margin-12 0;
-      }
-    }
-
-    .img-cont {
-      img {
-        margin-bottom: 0px;
-      }
-    }
-  }
 }
 
 .message-section {
@@ -964,6 +925,8 @@ body {
 
   .accordion-button {
     border-radius: 8px;
+    background-color: #005886 !important;
+    color: $color-white !important;
   }
 
   .accordion-button:focus {
@@ -1090,12 +1053,35 @@ body {
       border-radius: 50px;
       border: none;
 
-
     }
 
     .enroll-btn:hover {
       background-color: #0272ae;
     }
+  }
+}
+
+.mobile-enroll-btn {
+
+  background: #fff;
+  padding: 18px;
+  border-radius: 12px 12px 0px 0px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+
+  .enroll-btn {
+    background-color: #0089D1;
+    color: #fff;
+    padding: 6px;
+    width: 100%;
+    border-radius: 50px;
+    border: none;
+
+  }
+
+  p{
+    margin: 0px;
   }
 }
 
@@ -1238,7 +1224,7 @@ body {
   }
 
   .accordion-button {
-    background: transparent;
+
 
     &:focus {
       box-shadow: none;
@@ -1323,11 +1309,22 @@ body {
   overflow: scroll;
 }
 
+.tab-sec-list::-webkit-scrollbar {
+  display: none;
+}
+
+.tab-sec-list {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+}
+
+
 .course-card-sec {
   width: 70% !important;
 }
 
-.contact-botomm-sec{
+.contact-botomm-sec {
   justify-content: center;
   gap: 88px;
 }
@@ -1338,7 +1335,7 @@ body {
     display: none;
   }
 
-  .contact-botomm-sec{
+  .contact-botomm-sec {
     gap: 48px;
   }
 

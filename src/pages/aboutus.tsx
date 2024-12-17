@@ -111,8 +111,8 @@ const Aboutus = () => {
                   <Card.Text className="desc">
                     Gain an early advantage in your sports journey with athleriZe. Learn from world-class experts, master essential techniques & watch your skills soar.
                   </Card.Text>
-                  <Card.Link href="#" className="link">get started
-                    <span style={{ marginLeft: '12px' }}>
+                  <Card.Link href="#" className="link">start early
+                    {/* <span style={{ marginLeft: '12px' }}>
                       <svg
                         width="7"
                         height="11"
@@ -127,7 +127,7 @@ const Aboutus = () => {
                           strokeLinejoin="round"
                         />
                       </svg>
-                    </span>
+                    </span> */}
                   </Card.Link>
                 </Card.Body>
               </Card>
@@ -141,8 +141,8 @@ const Aboutus = () => {
                   <Card.Text className="desc">
                     Open the gateway to a thriving career in the sports industry. Learn from the best, master your craft, & shape your destiny.
                   </Card.Text>
-                  <Card.Link href="#" className="link">get started
-                    <span style={{ marginLeft: '12px' }}>
+                  <Card.Link href="#" className="link">skill up
+                    {/* <span style={{ marginLeft: '12px' }}>
                       <svg
                         width="7"
                         height="11"
@@ -157,7 +157,7 @@ const Aboutus = () => {
                           strokeLinejoin="round"
                         />
                       </svg>
-                    </span>
+                    </span> */}
                   </Card.Link>
                 </Card.Body>
               </Card>
@@ -172,7 +172,7 @@ const Aboutus = () => {
                     Gain expert advice & insights to improve physical & mental wellbeing, game, learn skills like focus, resilience & discipline or simply elevate your fan experience.
                   </Card.Text>
                   <Card.Link href="#" className="link">get started
-                    <span style={{ marginLeft: '12px' }}>
+                    {/* <span style={{ marginLeft: '12px' }}>
                       <svg
                         width="7"
                         height="11"
@@ -187,7 +187,7 @@ const Aboutus = () => {
                           strokeLinejoin="round"
                         />
                       </svg>
-                    </span>
+                    </span> */}
                   </Card.Link>
                 </Card.Body>
               </Card>
@@ -201,8 +201,8 @@ const Aboutus = () => {
                   <Card.Text className="desc">
                     Master advanced techniques & unlock peak performance with sessions, guidance & insights from world-class athletes, renowned coaches, & expert instructors.
                   </Card.Text>
-                  <Card.Link href="#" className="link">get started
-                    <span style={{ marginLeft: '12px' }}>
+                  <Card.Link href="#" className="link">step up
+                    {/* <span style={{ marginLeft: '12px' }}>
                       <svg
                         width="7"
                         height="11"
@@ -217,7 +217,7 @@ const Aboutus = () => {
                           strokeLinejoin="round"
                         />
                       </svg>
-                    </span>
+                    </span> */}
                   </Card.Link>
                 </Card.Body>
               </Card>
@@ -289,7 +289,7 @@ const Aboutus = () => {
           </div>
         </div>
         <div className="container text-center">
-          <img src="/assets/images/joinsqd.png" alt="" width={'100%'} />
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLScGu4cBndpiauzxDQaBlTOS_EGxMhMGhUQNABhZDEoxeExn0Q/viewform"> <img src="/assets/images/joinsqd.png" alt="" width={'100%'} /></a> 
         </div>
         <div className='partners-section'>
           <div className='header'>

@@ -111,7 +111,7 @@ const Contact = () => {
             <span className='vr-line' />
             <div>
               <p>our <span style={{ color: "#0089D1" }}>email id:</span> hello@athlerize.com</p>
-              <p>our <span style={{ color: "#0089D1" }}>whatsapp:</span> +91 9666 44 29 51</p>
+              <p>our <span style={{ color: "#0089D1" }}>phone/whatsapp:</span> +91 970 327 0910</p>
             </div>
           </div>
           <div className='partners-section'>

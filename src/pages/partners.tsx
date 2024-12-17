@@ -23,7 +23,7 @@ export default function Partners() {
             <img src="/assets/images/hh.png" />
             <p style={{ color: "#0089D1", marginTop: "24px" }}>
               Hyderabad Hunters{" "}
-              <span style={{ float: "right" }}>
+              {/* <span style={{ float: "right" }}>
                 <svg
                   width="7"
                   height="11"
@@ -38,7 +38,7 @@ export default function Partners() {
                     strokeLinejoin="round"
                   />
                 </svg>
-              </span>
+              </span> */}
             </p>
             <span className="f200">
               Hyderabad Hunters is a badminton team owned by Agile Entertainment
@@ -49,7 +49,7 @@ export default function Partners() {
             <img src="/assets/images/hbh.png" />
             <p style={{ color: "#0089D1" }}>
               Hyderabad Black Hawks
-              <span style={{ float: "right" }}>
+              {/* <span style={{ float: "right" }}>
                 <svg
                   width="7"
                   height="11"
@@ -64,7 +64,7 @@ export default function Partners() {
                     strokeLinejoin="round"
                   />
                 </svg>
-              </span>
+              </span> */}
             </p>
             <span className="f200">
               Hyderabad Black Hawks is a men's volleyball team of Prime Volleyball League owned by GlobalArena6 Sports alongside co-owner, Vijay Deverakonda..
@@ -82,7 +82,7 @@ export default function Partners() {
             <img src="/assets/images/oa.png" />
             <p style={{ color: "#0089D1", marginTop: "24px" }}>
               Orange Army Fan Club{" "}
-              <span style={{ float: "right" }}>
+              {/* <span style={{ float: "right" }}>
                 <svg
                   width="7"
                   height="11"
@@ -97,17 +97,17 @@ export default function Partners() {
                     strokeLinejoin="round"
                   />
                 </svg>
-              </span>
+              </span> */}
             </p>
             <span className="f200">
               The Official Fanclub of Sunrisers Hyderabad franchise of IPL (Indian Premier  League), based in Hyderabad, India.
             </span>
           </div>
           <div>
-            <img className="mt-24" src="/assets/images/bf.png" />
-            <p style={{ color: "#0089D1", marginTop: "24px" }}>
+            <img style={{ marginBottom: "30px" }} className="mt-24" src="/assets/images/bf.png" />
+            <p style={{ color: "#0089D1", marginTop: "24px", }}>
               Badminton Forever
-              <span style={{ float: "right" }}>
+              {/* <span style={{ float: "right" }}>
                 <svg
                   width="7"
                   height="11"
@@ -122,7 +122,7 @@ export default function Partners() {
                     strokeLinejoin="round"
                   />
                 </svg>
-              </span>
+              </span> */}
             </p>
             <span className="f200">
               One of the largest fan community of the Indian Badminton, serving from years and loved by top players..
@@ -139,7 +139,7 @@ export default function Partners() {
             <img src="/assets/images/blitz.png" />
             <p style={{ color: "#0089D1", marginTop: "24px" }}>
               Blitz Group{" "}
-              <span style={{ float: "right" }}>
+              {/* <span style={{ float: "right" }}>
                 <svg
                   width="7"
                   height="11"
@@ -154,7 +154,7 @@ export default function Partners() {
                     strokeLinejoin="round"
                   />
                 </svg>
-              </span>
+              </span> */}
             </p>
             <span className="f200">
               One of the top event management company based in Hyderabad, with expertise in sports events of any size.
@@ -163,8 +163,8 @@ export default function Partners() {
           <div>
             <img src="/assets/images/inde.png" />
             <p style={{ color: "#0089D1", marginTop: "24px" }}>
-            360D Sports{" "}
-              <span style={{ float: "right" }}>
+              360D Sports{" "}
+              {/* <span style={{ float: "right" }}>
                 <svg
                   width="7"
                   height="11"
@@ -179,10 +179,10 @@ export default function Partners() {
                     strokeLinejoin="round"
                   />
                 </svg>
-              </span>
+              </span> */}
             </p>
             <span className="f200">
-            a Sports Venture Studio that collaborates with Sports, Wellness & Fitness startups, guiding into impactful enterprises.
+              a Sports Venture Studio that collaborates with Sports, Wellness & Fitness startups, guiding into impactful enterprises.
 
             </span>
           </div>
