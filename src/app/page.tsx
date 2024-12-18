@@ -25,7 +25,7 @@ export default function Home() {
         </div>
         <div
           className="message-section"
-          style={{ background: "#0089D1", marginTop: "220px" }}
+          style={{ background: "#0089D1",}}
         >
            <div className='text-cont mb-16'>
             <h3>Message From Our  <br />Mastermind</h3>
