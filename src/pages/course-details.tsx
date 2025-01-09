@@ -23,11 +23,11 @@ const CourseDetails = () => {
 
                 </div>
                 <div className='Course-title'>
-                  <h2 className='m-0 mt-16  '>From Grassroots to Glory: Building a Career in Sports
+                  <h2 className=' mt-16 mb-24 '>From Grassroots to Glory: Building a Career in Sports
                   </h2>
-                  <p className='text-left'>
+                  {/* <p className='text-left'>
                     Find courses that fit your passion, whether active or coming soon!
-                  </p>
+                  </p> */}
                 </div>
                 <div className='teacher-info-sec'>
                   <div className='teacher-img'>

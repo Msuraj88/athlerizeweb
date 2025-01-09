@@ -24,8 +24,8 @@ const Courses = () => {
             </div>
             <Container className='course-card-sec'>
               <Row>
-                <div className='col-md-4'><CourseCard bgImg={'t-saipraneeth'} title={"SAI PRANEETH"} desc={'From Grassroots to Glory: Building a Career in Sports'} isLaunchSoon={false} /></div>
-                <div className='col-md-4'><CourseCard bgImg={'kunal2'} title={"KUNAL SAMANT"} desc={'Mastering the Art of Sports Content Creation'} isLaunchSoon={true} /></div>
+                <div className='col-md-4'><CourseCard bgImg={'t-saipraneeth'} title={"SAI PRANEETH"} desc={'From Grassroots to Glory: Building a Career in Sports'} isLaunchSoon={false} route='/course-details'/></div>
+                <div className='col-md-4'><CourseCard bgImg={'kunal'} title={"KUNAL SAMANT"} desc={'Mastering the Art of Sports Content Creation'} isLaunchSoon={false} route='/kunal-samant'/></div>
                 <div className='col-md-4'><CourseCard bgImg={'revanth2'} title={"REVANTH TUMMALA"} desc={'Capturing the Game: The Art of Sports Photography'} isLaunchSoon={true} /></div>
                 <div className='col-md-4'><CourseCard title={"JAGANNADH DAS"} desc={'Beyond the Scoreboard: Sports Writing & Journalism'} bgImg={'das'} isLaunchSoon={true} /></div>
                 <div className='col-md-4'><CourseCard title={"SIYAADATH ULLAH"} desc={'Career Smash: Turning Badminton Dreams into Reality'} bgImg={'siya'} isLaunchSoon={true} /></div>
