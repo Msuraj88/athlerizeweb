@@ -354,8 +354,8 @@ const CourseDetails = () => {
                               </ul>
                               <p>Kunal has also been involved in creating some of the most memorable and viral campaigns in sports content creation, such as:</p>
                               <ul>
-                                <li>Harsha Bhogle Viral Kidnap Campaign - <a href="URL">URL</a></li>
-                                <li>Riyan Parag Viral Interview on the World T20 - <a href="URL">URL</a></li>
+                                <li>Harsha Bhogle Viral Kidnap Campaign </li>
+                                <li>Riyan Parag Viral Interview on the World T20 </li>
                                 <li>Legends League Cricket Coverage</li>
                                 <li>Abu Dhabi T10 League Coverage</li>
                               </ul>
