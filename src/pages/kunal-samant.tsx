@@ -400,7 +400,7 @@ const CourseDetails = () => {
           <div className='mobile-enroll-btn d-block d-sm-none'>
             <div className='course-enroll-info text-center'>
               {/* <button className='enroll-btn mt-16' onClick={() => window.open('https://payments.cashfree.com/forms/testsppa', '_blank')}>Enroll Now</button> */}
-              <h5 className='Black-text'>INR 999 <span className='text-strike'>2499</span></h5>                    <p className='offer-text-clr p-0 m-0'>Special offer ends soon</p>
+              <h5 className='Black-text'>INR 1299 <span className='text-strike'>2499</span></h5>                    <p className='offer-text-clr p-0 m-0'>Special offer ends soon</p>
               <p className='Black-text'>(limited slots available)</p>
               <button className='enroll-btn mt-8' onClick={() => window.open('https://payments.cashfree.com/forms/saipraneethcourse1', '_blank')}>Enroll Now</button>
             </div>
