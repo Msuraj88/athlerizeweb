@@ -56,7 +56,7 @@ export default function RootLayout({
           `}
         </Script>
 
-        {/* Facebook Pixel Script */}
+        {/* Meta Pixel Code (Fixed) */}
         <Script id="facebook-pixel" strategy="afterInteractive">
           {`
             !function(f,b,e,v,n,t,s)
@@ -67,20 +67,22 @@ export default function RootLayout({
             t.src=v;s=b.getElementsByTagName(e)[0];
             s.parentNode.insertBefore(t,s)}(window, document,'script',
             'https://connect.facebook.net/en_US/fbevents.js');
-            fbq('init', '1809293196581182');
+            fbq('init', '991355372837036');
             fbq('track', 'PageView');
           `}
         </Script>
 
-        {/* Facebook Pixel noscript fallback */}
+        {/* Meta Pixel NoScript */}
         <noscript>
           <img
             height="1"
             width="1"
             style={{ display: "none" }}
-            src="https://www.facebook.com/tr?id=1809293196581182&ev=PageView&noscript=1"
+            src="https://www.facebook.com/tr?id=991355372837036&ev=PageView&noscript=1"
+            alt="Meta Pixel"
           />
         </noscript>
+
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {children}
